@@ -1,0 +1,16 @@
+2022-05-02 23:01:41,589 - DEBUG - This is a debug log.
+2022-05-02 23:01:41,590 - INFO - This is a info log.
+2022-05-02 23:01:41,590 - WARNING - This is a warning log.
+2022-05-02 23:01:41,590 - ERROR - This is a error log.
+2022-05-02 23:01:41,590 - CRITICAL - This is a critical log.
+2022-05-02 23:01:41,590 - CRITICAL - This is a critical log.
+2022-05-02 23:03:09,732 - DEBUG - This is a debug log.
+2022-05-02 23:03:09,733 - INFO - This is a info log.
+2022-05-02 23:03:09,733 - WARNING - This is a warning log.
+2022-05-02 23:03:09,733 - ERROR - This is a error log.
+2022-05-02 23:03:09,733 - CRITICAL - This is a critical log.
+05/02/2022 23:03:52 PM - DEBUG - This is a debug log.
+05/02/2022 23:03:52 PM - INFO - This is a info log.
+05/02/2022 23:03:52 PM - WARNING - This is a warning log.
+05/02/2022 23:03:52 PM - ERROR - This is a error log.
+05/02/2022 23:03:52 PM - CRITICAL - This is a critical log.

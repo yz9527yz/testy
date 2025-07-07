@@ -1,0 +1,13 @@
+{
+  "data":
+  [
+    {"register_username": "test03","register_password": "12345678","confirm_password": "12345678","first_name": "王","last_name": "小二","user_mail": "22345678901@163.com","atatus": "0"},
+    {"register_username": "","register_password": "12345678","confirm_password": "12345678","first_name": "王","last_name": "小二","user_mail": "22345678901@163.com","atatus": "0"},
+    {"register_username": "test02","register_password": "12345678","confirm_password": "12345678","first_name": "","last_name": "小二","user_mail": "22345678901@163.com","atatus": "0"},
+    {"register_username": "test02","register_password": "12345678","confirm_password": "12345678","first_name": "王","last_name": "","user_mail": "22345678901@163.com","atatus": "0"},
+    {"register_username": "test02","register_password": "","confirm_password": "12345678","first_name": "王","last_name": "小二","user_mail": "22345678901@163.com","atatus": "0"},
+    {"register_username": "test02","register_password": "12345678","confirm_password": "12345678","first_name": "王","last_name": "小二","user_mail": "","atatus": "0"},
+    {"register_username": "test02","register_password": "12345678","confirm_password": "12345678","first_name": "王","last_name": "小二","user_mail": "22345678901","atatus": "0"},
+    {"register_username": "test02","register_password": "12345678","confirm_password": "12345678","first_name": "王","last_name": "小二","user_mail": "22345678901@163.com","atatus": "0"}
+  ]
+}

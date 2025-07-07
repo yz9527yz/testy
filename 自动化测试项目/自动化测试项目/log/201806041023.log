@@ -1,0 +1,10 @@
+2018-06-04 10:23:42,571 - BrowserEngine - INFO - You had select Chrome browser. 
+2018-06-04 10:23:42,572 - BrowserEngine - INFO - The test server url is http://www.baidu.com 
+2018-06-04 10:23:46,222 - BrowserEngine - INFO - Starting Chorme browser 
+2018-06-04 10:23:46,732 - BrowserEngine - INFO - Open url http://www.baidu.com 
+2018-06-04 10:23:46,734 - BrowserEngine - INFO - Set implicitly wait 10 seconds 
+2018-06-04 10:24:32,160 - BasePage - ERROR - NoSuchElementException:Message: no such element: Unable to locate element: {"method":"id","selector":"ww"}
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 6.1.7601 SP1 x86_64)
+ 
+2018-06-04 10:24:32,538 - BasePage - INFO - Had take screenshot and save to folder : /screenshots 
