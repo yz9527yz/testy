@@ -1,0 +1,6 @@
+2018-06-01 14:39:44,615 - BrowserEngine - INFO - You had select Chrome browser. 
+2018-06-01 14:39:44,616 - BrowserEngine - INFO - The test server url is http://www.baidu.com 
+2018-06-01 14:39:48,248 - BrowserEngine - INFO - Starting Chorme browser 
+2018-06-01 14:39:48,765 - BrowserEngine - INFO - Open url http://www.baidu.com 
+2018-06-01 14:39:48,766 - BrowserEngine - INFO - Set implicitly wait 10 seconds 
+2018-06-01 14:39:48,805 - BasePage - INFO - Had find the element ' 新闻 ' successfulby link_text via value:新闻 

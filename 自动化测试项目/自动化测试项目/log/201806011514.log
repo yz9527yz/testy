@@ -1,0 +1,10 @@
+2018-06-01 15:14:37,047 - BrowserEngine - INFO - You had select Chrome browser. 
+2018-06-01 15:14:37,047 - BrowserEngine - INFO - The test server url is http://www.baidu.com 
+2018-06-01 15:14:40,757 - BrowserEngine - INFO - Starting Chorme browser 
+2018-06-01 15:14:41,284 - BrowserEngine - INFO - Open url http://www.baidu.com 
+2018-06-01 15:14:41,286 - BrowserEngine - INFO - Set implicitly wait 10 seconds 
+2018-06-01 15:14:41,320 - BasePage - INFO - Had find the element ' 新闻 ' successfulby link_text via value:新闻 
+2018-06-01 15:14:42,233 - ViewNBANews - ERROR - baiduNewHome Error:Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 6.1.7601 SP1 x86_64)
+ 

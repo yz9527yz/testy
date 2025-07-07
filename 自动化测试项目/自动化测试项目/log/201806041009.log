@@ -1,0 +1,22 @@
+2018-06-04 10:09:47,547 - BrowserEngine - INFO - You had select Chrome browser. 
+2018-06-04 10:09:47,548 - BrowserEngine - INFO - The test server url is http://www.baidu.com 
+2018-06-04 10:09:51,228 - BrowserEngine - INFO - Starting Chorme browser 
+2018-06-04 10:09:51,824 - BrowserEngine - INFO - Open url http://www.baidu.com 
+2018-06-04 10:09:51,825 - BrowserEngine - INFO - Set implicitly wait 10 seconds 
+2018-06-04 10:10:01,839 - BasePage - ERROR - NoSuchElementException:Message: no such element: Unable to locate element: {"method":"id","selector":"ww"}
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 6.1.7601 SP1 x86_64)
+ 
+2018-06-04 10:10:02,103 - BasePage - INFO - Had take screenshot and save to folder : /screenshots 
+2018-06-04 10:10:02,103 - BaiduSearch - ERROR - Test Fail:'str' object has no attribute 'clear' 
+2018-06-04 10:10:05,139 - BrowserEngine - INFO - You had select Chrome browser. 
+2018-06-04 10:10:05,139 - BrowserEngine - INFO - The test server url is http://www.baidu.com 
+2018-06-04 10:10:08,798 - BrowserEngine - INFO - Starting Chorme browser 
+2018-06-04 10:10:09,445 - BrowserEngine - INFO - Open url http://www.baidu.com 
+2018-06-04 10:10:09,448 - BrowserEngine - INFO - Set implicitly wait 10 seconds 
+2018-06-04 10:10:19,496 - BasePage - ERROR - NoSuchElementException:Message: no such element: Unable to locate element: {"method":"id","selector":"ww"}
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 6.1.7601 SP1 x86_64)
+ 
+2018-06-04 10:10:19,761 - BasePage - INFO - Had take screenshot and save to folder : /screenshots 
+2018-06-04 10:10:19,761 - BaiduSearch - ERROR - Test Fail:'str' object has no attribute 'clear' 

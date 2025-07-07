@@ -1,0 +1,8 @@
+2018-05-30 16:40:51,637 - BrowserEngine - INFO - You had select Chrome browser. 
+2018-05-30 16:40:51,637 - BrowserEngine - INFO - The test server url is http://www.baidu.com 
+2018-05-30 16:40:55,352 - BrowserEngine - INFO - Starting Chorme browser 
+2018-05-30 16:40:56,111 - BrowserEngine - INFO - Open url http://www.baidu.com 
+2018-05-30 16:40:56,132 - BrowserEngine - INFO - Set implicitly wait 10 seconds 
+2018-05-30 16:41:03,922 - BaiduSearch - INFO - baidu send_keys selenium 
+2018-05-30 16:41:10,390 - BaiduSearch - INFO - OK 
+2018-05-30 16:41:18,907 - BrowserEngine - INFO - Now,Close and quit the browser. 

@@ -1,0 +1,7 @@
+{
+  "data":
+  [
+    {"username": "user","password": "123","atatus": "0"},
+    {"username": "user","password": "12345678","atatus": "1"}
+  ]
+}

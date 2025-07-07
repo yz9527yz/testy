@@ -1,0 +1,24 @@
+2018-06-01 10:55:22,303 - BrowserEngine - INFO - You had select Chrome browser. 
+2018-06-01 10:55:22,303 - BrowserEngine - INFO - The test server url is http://www.baidu.com 
+2018-06-01 10:55:26,014 - BrowserEngine - INFO - Starting Chorme browser 
+2018-06-01 10:55:26,705 - BrowserEngine - INFO - Open url http://www.baidu.com 
+2018-06-01 10:55:26,707 - BrowserEngine - INFO - Set implicitly wait 10 seconds 
+2018-06-01 10:55:26,744 - BasePage - INFO - Had find the element '  ' successfulby id via value:kw 
+2018-06-01 10:55:26,928 - BasePage - INFO - Had type ' selenium ' in inputBox 
+2018-06-01 10:55:26,998 - BasePage - INFO - Had find the element '  ' successfulby xpath via value://*[@id='su'] 
+2018-06-01 10:55:27,112 - BasePage - INFO - The emement '  'was click 
+2018-06-01 10:55:29,464 - BasePage - INFO - Had take screenshot and save to folder : /screenshots 
+2018-06-01 10:55:29,479 - BasePage - INFO - Current page title is selenium_百度搜索 
+2018-06-01 10:55:29,484 - BaiduSearch - INFO - Test Pass 
+2018-06-01 10:55:32,514 - BrowserEngine - INFO - You had select Chrome browser. 
+2018-06-01 10:55:32,515 - BrowserEngine - INFO - The test server url is http://www.baidu.com 
+2018-06-01 10:55:36,206 - BrowserEngine - INFO - Starting Chorme browser 
+2018-06-01 10:55:36,720 - BrowserEngine - INFO - Open url http://www.baidu.com 
+2018-06-01 10:55:36,722 - BrowserEngine - INFO - Set implicitly wait 10 seconds 
+2018-06-01 10:55:36,751 - BasePage - INFO - Had find the element '  ' successfulby id via value:kw 
+2018-06-01 10:55:36,874 - BasePage - INFO - Had type ' python ' in inputBox 
+2018-06-01 10:55:36,908 - BasePage - INFO - Had find the element '  ' successfulby xpath via value://*[@id='su'] 
+2018-06-01 10:55:37,020 - BasePage - INFO - The emement '  'was click 
+2018-06-01 10:55:39,405 - BasePage - INFO - Had take screenshot and save to folder : /screenshots 
+2018-06-01 10:55:39,416 - BasePage - INFO - Current page title is python_百度搜索 
+2018-06-01 10:55:39,420 - BaiduSearch - INFO - Test Pass 

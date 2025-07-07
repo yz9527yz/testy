@@ -1,0 +1,2566 @@
+
+RT后如果存在不止一条航段是TK，且存在两个出发地、目的地相同的航段，则无法解析，需人工处理
+
+{
+  "bookingSource": "09XI",
+  "id": 0,
+  "isSystemBook": 0,
+  "name": "LAUCHUI YIEN MS/CHIONGTZE LING MS",
+  "pnr": "IGXEWO",
+  "rtcXml": "",
+  "sendDate": "2022-12-23 13:00:00",
+  "sendOrNot": 0,
+  "status": 0,
+  "trip": "VN 0680L KULHAN UN 17DEC22 17:20 17DEC22 19:35</br>"}
+
+<Trip_SearchRS xmlns="http://webservices.sabre.com/triprecord" xmlns:ns2="http://services.sabre.com/STL/v01" xmlns:ns4="http://webservices.sabre.com/sabreXML/2003/07" xmlns:ns3="http://webservices.sabre.com/pnrbuilder" xmlns:ns6="http://tds.sabre.com/itinerary" xmlns:ns5="http://tds.sabre.com/rules" xmlns:ns8="http://services.sabre.com/STL/v02" xmlns:ns7="http://services.sabre.com/res/orr/v0" xmlns:ns13="http://www.sabre.com/eps/schemas" xmlns:tir37="http://services.sabre.com/res/tir/v3_7" xmlns:ns9="http://www.sabre.com/ssg/des/v1" xmlns:ns12="http://opentravel.org/common/v02" xmlns:ns11="http://www.OpenTravel.org/ns/OTA2/AppInfo_v01_00" xmlns:tir39="http://services.sabre.com/res/tir/v3_9" xmlns:ns10="http://services.sabre.com/STL_Header/v02_00" xmlns:stl114="http://webservices.sabre.com/pnrbuilder/v1_14" xmlns:ns15="http://webservices.sabre.com/servicesplatform/orr/rules/1.0.0" xmlns:ns14="http://tds.sabre.com/distribution" xmlns:stl115="http://webservices.sabre.com/pnrbuilder/v1_15" xmlns:stl119="http://webservices.sabre.com/pnrbuilder/v1_19" xmlns:ns24="http://services.sabre.com/res/or/v1_14" xmlns:or16="http://services.sabre.com/res/or/v1_6" xmlns:or17="http://services.sabre.com/res/or/v1_7" xmlns:or18="http://services.sabre.com/res/or/v1_8" xmlns:or19="http://services.sabre.com/res/or/v1_9" TimeStamp="2022-12-22T21:09:27" Target="Production" Version="4.5.0">
+  <Success>Success</Success>
+  <ReservationsList NumberResults="1" NumberPages="1" TotalResults="1">
+    <Reservations>
+      <Reservation Locator="IGXEWO">
+        <stl19:GetReservationRS xmlns:stl19="http://webservices.sabre.com/pnrbuilder/v1_19" xmlns:or114="http://services.sabre.com/res/or/v1_14" xmlns:ns4="http://webservices.sabre.com/pnrconn/ReaccSearch" xmlns:ns6="http://services.sabre.com/res/orr/v0" xmlns:raw="http://tds.sabre.com/itinerary" Version="1.19.0">
+          <stl19:Reservation NumberInSegment="2" numberInParty="2" numberOfInfants="0">
+            <stl19:BookingDetails>
+              <stl19:RecordLocator>IGXEWO</stl19:RecordLocator>
+              <stl19:CreationTimestamp>2022-08-23T05:07:00</stl19:CreationTimestamp>
+              <stl19:SystemCreationTimestamp>2022-08-23T05:07:00</stl19:SystemCreationTimestamp>
+              <stl19:CreationAgentID>AKW</stl19:CreationAgentID>
+              <stl19:UpdateTimestamp>2022-12-22T06:55:26</stl19:UpdateTimestamp>
+              <stl19:PNRSequence>46</stl19:PNRSequence>
+              <stl19:FlightsRange End="2022-12-23T11:20:00" Start="2022-12-17T15:45:00" />
+              <stl19:DivideSplitDetails />
+              <stl19:EstimatedPurgeTimestamp>2023-01-06T00:00:00</stl19:EstimatedPurgeTimestamp>
+              <stl19:UpdateToken>-3d81aa1c60d5608bd2bc1effef0523a8025bffa93952437c</stl19:UpdateToken>
+            </stl19:BookingDetails>
+            <stl19:POS AirExtras="false" InhibitCode="U">
+              <stl19:Source AgentDutyCode="*" AgentSine="AKW" AirlineVendorID="AA" BookingSource="09XI" HomePseudoCityCode="09XI" ISOCountry="HK" PrimeHostID="1B" PseudoCityCode="09XI" />
+            </stl19:POS>
+            <stl19:PassengerReservation>
+              <stl19:Passengers>
+                <stl19:Passenger elementId="pnr-5.1" id="5" nameAssocId="1" nameId="01.01" nameType="S" passengerType="ADT">
+                  <stl19:LastName>LAU</stl19:LastName>
+                  <stl19:FirstName>CHUI YIEN MS</stl19:FirstName>
+                  <stl19:SpecialRequests>
+                    <stl19:GenericSpecialRequest id="9" msgType="S" type="G">
+                      <stl19:Code>CTCM</stl19:Code>
+                      <stl19:FreeText>/13564188010</stl19:FreeText>
+                      <stl19:ActionCode>HK</stl19:ActionCode>
+                      <stl19:NumberInParty>1</stl19:NumberInParty>
+                      <stl19:AirlineCode>VN</stl19:AirlineCode>
+                      <stl19:FullText>CTCM VN HK1/13564188010</stl19:FullText>
+                    </stl19:GenericSpecialRequest>
+                    <stl19:GenericSpecialRequest id="88" msgType="S" type="G">
+                      <stl19:Code>CTCE</stl19:Code>
+                      <stl19:FreeText>/JAMESLAU85//GMAIL.COM</stl19:FreeText>
+                      <stl19:ActionCode>HK</stl19:ActionCode>
+                      <stl19:NumberInParty>1</stl19:NumberInParty>
+                      <stl19:AirlineCode>VN</stl19:AirlineCode>
+                      <stl19:FullText>CTCE VN HK1/JAMESLAU85//GMAIL.COM</stl19:FullText>
+                    </stl19:GenericSpecialRequest>
+                    <stl19:APISRequest>
+                      <stl19:DOCSEntry id="10" type="G">
+                        <stl19:DocumentType>P</stl19:DocumentType>
+                        <stl19:CountryOfIssue>MY</stl19:CountryOfIssue>
+                        <stl19:DocumentNumber>K50190918</stl19:DocumentNumber>
+                        <stl19:DocumentNationalityCountry>MY</stl19:DocumentNationalityCountry>
+                        <stl19:DateOfBirth>1971-12-09</stl19:DateOfBirth>
+                        <stl19:Gender>F</stl19:Gender>
+                        <stl19:DocumentExpirationDate>2023-08-15</stl19:DocumentExpirationDate>
+                        <stl19:Surname>LAU</stl19:Surname>
+                        <stl19:Forename>CHUI YIEN</stl19:Forename>
+                        <stl19:MiddleName />
+                        <stl19:PrimaryHolder>false</stl19:PrimaryHolder>
+                        <stl19:FreeText />
+                        <stl19:ActionCode>HK</stl19:ActionCode>
+                        <stl19:NumberInParty>1</stl19:NumberInParty>
+                        <stl19:VendorCode>VN</stl19:VendorCode>
+                      </stl19:DOCSEntry>
+                    </stl19:APISRequest>
+                    <stl19:TicketingRequest>
+                      <stl19:TicketType>G</stl19:TicketType>
+                      <stl19:ValidatingCarrier>VN</stl19:ValidatingCarrier>
+                      <stl19:ActionCode>HK</stl19:ActionCode>
+                      <stl19:NumberInParty>1</stl19:NumberInParty>
+                      <stl19:BoardPoint>KUL</stl19:BoardPoint>
+                      <stl19:OffPoint>SGN</stl19:OffPoint>
+                      <stl19:ClassOfService>L</stl19:ClassOfService>
+                      <stl19:DateOfTravel>2022-12-17T00:00:00</stl19:DateOfTravel>
+                      <stl19:TicketNumber>7382428344650C1</stl19:TicketNumber>
+                    </stl19:TicketingRequest>
+                    <stl19:TicketingRequest>
+                      <stl19:TicketType>G</stl19:TicketType>
+                      <stl19:ValidatingCarrier>VN</stl19:ValidatingCarrier>
+                      <stl19:ActionCode>HK</stl19:ActionCode>
+                      <stl19:NumberInParty>1</stl19:NumberInParty>
+                      <stl19:BoardPoint>SGN</stl19:BoardPoint>
+                      <stl19:OffPoint>HAN</stl19:OffPoint>
+                      <stl19:ClassOfService>L</stl19:ClassOfService>
+                      <stl19:DateOfTravel>2022-12-17T00:00:00</stl19:DateOfTravel>
+                      <stl19:TicketNumber>7382428344650C2</stl19:TicketNumber>
+                    </stl19:TicketingRequest>
+                    <stl19:TicketingRequest>
+                      <stl19:TicketType>G</stl19:TicketType>
+                      <stl19:ValidatingCarrier>VN</stl19:ValidatingCarrier>
+                      <stl19:ActionCode>HK</stl19:ActionCode>
+                      <stl19:NumberInParty>1</stl19:NumberInParty>
+                      <stl19:BoardPoint>HAN</stl19:BoardPoint>
+                      <stl19:OffPoint>SGN</stl19:OffPoint>
+                      <stl19:ClassOfService>Q</stl19:ClassOfService>
+                      <stl19:DateOfTravel>2022-12-22T00:00:00</stl19:DateOfTravel>
+                      <stl19:TicketNumber>7382428344650C3</stl19:TicketNumber>
+                    </stl19:TicketingRequest>
+                    <stl19:TicketingRequest>
+                      <stl19:TicketType>G</stl19:TicketType>
+                      <stl19:ValidatingCarrier>VN</stl19:ValidatingCarrier>
+                      <stl19:ActionCode>HK</stl19:ActionCode>
+                      <stl19:NumberInParty>1</stl19:NumberInParty>
+                      <stl19:BoardPoint>SGN</stl19:BoardPoint>
+                      <stl19:OffPoint>KUL</stl19:OffPoint>
+                      <stl19:ClassOfService>Q</stl19:ClassOfService>
+                      <stl19:DateOfTravel>2022-12-23T00:00:00</stl19:DateOfTravel>
+                      <stl19:TicketNumber>7382428344650C4</stl19:TicketNumber>
+                    </stl19:TicketingRequest>
+                  </stl19:SpecialRequests>
+                  <stl19:Seats>
+                    <stl19:PreReservedSeats>
+                      <stl19:PreReservedSeat id="67">
+                        <stl19:SeatNumber>21E</stl19:SeatNumber>
+                        <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                        <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                        <stl19:BoardPoint>KUL</stl19:BoardPoint>
+                        <stl19:OffPoint>SGN</stl19:OffPoint>
+                        <stl19:Changed>N</stl19:Changed>
+                        <stl19:NameNumber>01.01</stl19:NameNumber>
+                      </stl19:PreReservedSeat>
+                      <stl19:PreReservedSeat id="69">
+                        <stl19:SeatNumber>24F</stl19:SeatNumber>
+                        <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                        <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                        <stl19:BoardPoint>SGN</stl19:BoardPoint>
+                        <stl19:OffPoint>HAN</stl19:OffPoint>
+                        <stl19:Changed>N</stl19:Changed>
+                        <stl19:NameNumber>01.01</stl19:NameNumber>
+                      </stl19:PreReservedSeat>
+                      <stl19:PreReservedSeat id="71">
+                        <stl19:SeatNumber>11D</stl19:SeatNumber>
+                        <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                        <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                        <stl19:BoardPoint>SGN</stl19:BoardPoint>
+                        <stl19:OffPoint>KUL</stl19:OffPoint>
+                        <stl19:Changed>N</stl19:Changed>
+                        <stl19:NameNumber>01.01</stl19:NameNumber>
+                      </stl19:PreReservedSeat>
+                      <stl19:PreReservedSeat id="107">
+                        <stl19:SeatNumber>47H</stl19:SeatNumber>
+                        <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                        <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                        <stl19:BoardPoint>HAN</stl19:BoardPoint>
+                        <stl19:OffPoint>SGN</stl19:OffPoint>
+                        <stl19:Changed>N</stl19:Changed>
+                        <stl19:NameNumber>01.01</stl19:NameNumber>
+                      </stl19:PreReservedSeat>
+                    </stl19:PreReservedSeats>
+                  </stl19:Seats>
+                </stl19:Passenger>
+                <stl19:Passenger elementId="pnr-7.2" id="7" nameAssocId="2" nameId="02.01" nameType="S" passengerType="ADT">
+                  <stl19:LastName>CHIONG</stl19:LastName>
+                  <stl19:FirstName>TZE LING MS</stl19:FirstName>
+                  <stl19:SpecialRequests>
+                    <stl19:APISRequest>
+                      <stl19:DOCSEntry id="11" type="G">
+                        <stl19:DocumentType>P</stl19:DocumentType>
+                        <stl19:CountryOfIssue>MY</stl19:CountryOfIssue>
+                        <stl19:DocumentNumber>010905131056</stl19:DocumentNumber>
+                        <stl19:DocumentNationalityCountry>MY</stl19:DocumentNationalityCountry>
+                        <stl19:DateOfBirth>2001-09-05</stl19:DateOfBirth>
+                        <stl19:Gender>F</stl19:Gender>
+                        <stl19:DocumentExpirationDate>2023-08-15</stl19:DocumentExpirationDate>
+                        <stl19:Surname>CHIONG</stl19:Surname>
+                        <stl19:Forename>TZE LING</stl19:Forename>
+                        <stl19:MiddleName />
+                        <stl19:PrimaryHolder>false</stl19:PrimaryHolder>
+                        <stl19:FreeText />
+                        <stl19:ActionCode>HK</stl19:ActionCode>
+                        <stl19:NumberInParty>1</stl19:NumberInParty>
+                        <stl19:VendorCode>VN</stl19:VendorCode>
+                      </stl19:DOCSEntry>
+                    </stl19:APISRequest>
+                    <stl19:TicketingRequest>
+                      <stl19:TicketType>G</stl19:TicketType>
+                      <stl19:ValidatingCarrier>VN</stl19:ValidatingCarrier>
+                      <stl19:ActionCode>HK</stl19:ActionCode>
+                      <stl19:NumberInParty>1</stl19:NumberInParty>
+                      <stl19:BoardPoint>KUL</stl19:BoardPoint>
+                      <stl19:OffPoint>SGN</stl19:OffPoint>
+                      <stl19:ClassOfService>L</stl19:ClassOfService>
+                      <stl19:DateOfTravel>2022-12-17T00:00:00</stl19:DateOfTravel>
+                      <stl19:TicketNumber>7382428344651C1</stl19:TicketNumber>
+                    </stl19:TicketingRequest>
+                    <stl19:TicketingRequest>
+                      <stl19:TicketType>G</stl19:TicketType>
+                      <stl19:ValidatingCarrier>VN</stl19:ValidatingCarrier>
+                      <stl19:ActionCode>HK</stl19:ActionCode>
+                      <stl19:NumberInParty>1</stl19:NumberInParty>
+                      <stl19:BoardPoint>SGN</stl19:BoardPoint>
+                      <stl19:OffPoint>HAN</stl19:OffPoint>
+                      <stl19:ClassOfService>L</stl19:ClassOfService>
+                      <stl19:DateOfTravel>2022-12-17T00:00:00</stl19:DateOfTravel>
+                      <stl19:TicketNumber>7382428344651C2</stl19:TicketNumber>
+                    </stl19:TicketingRequest>
+                    <stl19:TicketingRequest>
+                      <stl19:TicketType>G</stl19:TicketType>
+                      <stl19:ValidatingCarrier>VN</stl19:ValidatingCarrier>
+                      <stl19:ActionCode>HK</stl19:ActionCode>
+                      <stl19:NumberInParty>1</stl19:NumberInParty>
+                      <stl19:BoardPoint>HAN</stl19:BoardPoint>
+                      <stl19:OffPoint>SGN</stl19:OffPoint>
+                      <stl19:ClassOfService>Q</stl19:ClassOfService>
+                      <stl19:DateOfTravel>2022-12-22T00:00:00</stl19:DateOfTravel>
+                      <stl19:TicketNumber>7382428344651C3</stl19:TicketNumber>
+                    </stl19:TicketingRequest>
+                    <stl19:TicketingRequest>
+                      <stl19:TicketType>G</stl19:TicketType>
+                      <stl19:ValidatingCarrier>VN</stl19:ValidatingCarrier>
+                      <stl19:ActionCode>HK</stl19:ActionCode>
+                      <stl19:NumberInParty>1</stl19:NumberInParty>
+                      <stl19:BoardPoint>SGN</stl19:BoardPoint>
+                      <stl19:OffPoint>KUL</stl19:OffPoint>
+                      <stl19:ClassOfService>Q</stl19:ClassOfService>
+                      <stl19:DateOfTravel>2022-12-23T00:00:00</stl19:DateOfTravel>
+                      <stl19:TicketNumber>7382428344651C4</stl19:TicketNumber>
+                    </stl19:TicketingRequest>
+                  </stl19:SpecialRequests>
+                  <stl19:Seats>
+                    <stl19:PreReservedSeats>
+                      <stl19:PreReservedSeat id="68">
+                        <stl19:SeatNumber>21G</stl19:SeatNumber>
+                        <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                        <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                        <stl19:BoardPoint>KUL</stl19:BoardPoint>
+                        <stl19:OffPoint>SGN</stl19:OffPoint>
+                        <stl19:Changed>N</stl19:Changed>
+                        <stl19:NameNumber>02.01</stl19:NameNumber>
+                      </stl19:PreReservedSeat>
+                      <stl19:PreReservedSeat id="70">
+                        <stl19:SeatNumber>24E</stl19:SeatNumber>
+                        <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                        <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                        <stl19:BoardPoint>SGN</stl19:BoardPoint>
+                        <stl19:OffPoint>HAN</stl19:OffPoint>
+                        <stl19:Changed>N</stl19:Changed>
+                        <stl19:NameNumber>02.01</stl19:NameNumber>
+                      </stl19:PreReservedSeat>
+                      <stl19:PreReservedSeat id="72">
+                        <stl19:SeatNumber>11E</stl19:SeatNumber>
+                        <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                        <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                        <stl19:BoardPoint>SGN</stl19:BoardPoint>
+                        <stl19:OffPoint>KUL</stl19:OffPoint>
+                        <stl19:Changed>N</stl19:Changed>
+                        <stl19:NameNumber>02.01</stl19:NameNumber>
+                      </stl19:PreReservedSeat>
+                      <stl19:PreReservedSeat id="109">
+                        <stl19:SeatNumber>47G</stl19:SeatNumber>
+                        <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                        <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                        <stl19:BoardPoint>HAN</stl19:BoardPoint>
+                        <stl19:OffPoint>SGN</stl19:OffPoint>
+                        <stl19:Changed>N</stl19:Changed>
+                        <stl19:NameNumber>02.01</stl19:NameNumber>
+                      </stl19:PreReservedSeat>
+                    </stl19:PreReservedSeats>
+                  </stl19:Seats>
+                </stl19:Passenger>
+              </stl19:Passengers>
+              <stl19:Segments>
+                <stl19:Poc>
+                  <stl19:Airport>KUL</stl19:Airport>
+                  <stl19:Departure>2022-12-17T15:45:00</stl19:Departure>
+                </stl19:Poc>
+                <stl19:Segment id="3" sequence="1">
+                  <stl19:Air CodeShare="false" DayOfWeekInd="6" ResBookDesigCode="L" SmokingAllowed="false" SpecialMeal="false" id="3" isPast="true" segmentAssociationId="2" sequence="1">
+                    <stl19:DepartureAirport>KUL</stl19:DepartureAirport>
+                    <stl19:DepartureAirportCodeContext>IATA</stl19:DepartureAirportCodeContext>
+                    <stl19:ArrivalAirport>HAN</stl19:ArrivalAirport>
+                    <stl19:ArrivalAirportCodeContext>IATA</stl19:ArrivalAirportCodeContext>
+                    <stl19:OperatingAirlineCode>VN</stl19:OperatingAirlineCode>
+                    <stl19:OperatingAirlineShortName>VIETNAM AIRLINES</stl19:OperatingAirlineShortName>
+                    <stl19:OperatingFlightNumber>0680</stl19:OperatingFlightNumber>
+                    <stl19:EquipmentType>321</stl19:EquipmentType>
+                    <stl19:MarketingAirlineCode>VN</stl19:MarketingAirlineCode>
+                    <stl19:MarketingFlightNumber>0680</stl19:MarketingFlightNumber>
+                    <stl19:OperatingClassOfService>L</stl19:OperatingClassOfService>
+                    <stl19:MarketingClassOfService>L</stl19:MarketingClassOfService>
+                    <stl19:MarriageGrp>
+                      <stl19:Ind>0</stl19:Ind>
+                      <stl19:Group>0</stl19:Group>
+                      <stl19:Sequence>0</stl19:Sequence>
+                    </stl19:MarriageGrp>
+                    <stl19:Seats />
+                    <stl19:AirlineRefId>DCVN*MJTMUB</stl19:AirlineRefId>
+                    <stl19:Eticket>true</stl19:Eticket>
+                    <stl19:DepartureDateTime>2022-12-17T17:20:00</stl19:DepartureDateTime>
+                    <stl19:ArrivalDateTime>2022-12-17T19:35:00</stl19:ArrivalDateTime>
+                    <stl19:FlightNumber>0680</stl19:FlightNumber>
+                    <stl19:ClassOfService>L</stl19:ClassOfService>
+                    <stl19:ActionCode>UN</stl19:ActionCode>
+                    <stl19:NumberInParty>2</stl19:NumberInParty>
+                    <stl19:SegmentSpecialRequests />
+                    <stl19:inboundConnection>false</stl19:inboundConnection>
+                    <stl19:outboundConnection>false</stl19:outboundConnection>
+                    <stl19:ScheduleChangeIndicator>false</stl19:ScheduleChangeIndicator>
+                    <stl19:SegmentBookedDate>2022-08-23T05:07:00</stl19:SegmentBookedDate>
+                    <stl19:Banner>MARKETED BY VIETNAM AIRLINES</stl19:Banner>
+                    <stl19:Informational>false</stl19:Informational>
+                  </stl19:Air>
+                </stl19:Segment>
+                <stl19:Segment id="36" sequence="2">
+                  <stl19:Air CodeShare="false" DayOfWeekInd="6" ResBookDesigCode="L" SmokingAllowed="false" SpecialMeal="false" id="36" isPast="true" segmentAssociationId="4" sequence="2">
+                    <stl19:DepartureAirport>KUL</stl19:DepartureAirport>
+                    <stl19:DepartureAirportCodeContext>IATA</stl19:DepartureAirportCodeContext>
+                    <stl19:ArrivalAirport>SGN</stl19:ArrivalAirport>
+                    <stl19:ArrivalAirportCodeContext>IATA</stl19:ArrivalAirportCodeContext>
+                    <stl19:OperatingAirlineCode>VN</stl19:OperatingAirlineCode>
+                    <stl19:OperatingAirlineShortName>VIETNAM AIRLINES</stl19:OperatingAirlineShortName>
+                    <stl19:OperatingFlightNumber>0674</stl19:OperatingFlightNumber>
+                    <stl19:EquipmentType>321</stl19:EquipmentType>
+                    <stl19:MarketingAirlineCode>VN</stl19:MarketingAirlineCode>
+                    <stl19:MarketingFlightNumber>0674</stl19:MarketingFlightNumber>
+                    <stl19:OperatingClassOfService>L</stl19:OperatingClassOfService>
+                    <stl19:MarketingClassOfService>L</stl19:MarketingClassOfService>
+                    <stl19:MarriageGrp>
+                      <stl19:Ind>0</stl19:Ind>
+                      <stl19:Group>0</stl19:Group>
+                      <stl19:Sequence>0</stl19:Sequence>
+                    </stl19:MarriageGrp>
+                    <stl19:Seats>
+                      <stl19:PreReservedSeats>
+                        <stl19:PreReservedSeat id="67">
+                          <stl19:SeatNumber>21E</stl19:SeatNumber>
+                          <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                          <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                          <stl19:BoardPoint>KUL</stl19:BoardPoint>
+                          <stl19:OffPoint>SGN</stl19:OffPoint>
+                          <stl19:Changed>N</stl19:Changed>
+                          <stl19:NameNumber>01.01</stl19:NameNumber>
+                        </stl19:PreReservedSeat>
+                        <stl19:PreReservedSeat id="68">
+                          <stl19:SeatNumber>21G</stl19:SeatNumber>
+                          <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                          <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                          <stl19:BoardPoint>KUL</stl19:BoardPoint>
+                          <stl19:OffPoint>SGN</stl19:OffPoint>
+                          <stl19:Changed>N</stl19:Changed>
+                          <stl19:NameNumber>02.01</stl19:NameNumber>
+                        </stl19:PreReservedSeat>
+                      </stl19:PreReservedSeats>
+                    </stl19:Seats>
+                    <stl19:AirlineRefId>DCVN*MJTMUB</stl19:AirlineRefId>
+                    <stl19:Eticket>true</stl19:Eticket>
+                    <stl19:DepartureDateTime>2022-12-17T15:45:00</stl19:DepartureDateTime>
+                    <stl19:ArrivalDateTime>2022-12-17T17:00:00</stl19:ArrivalDateTime>
+                    <stl19:FlightNumber>0674</stl19:FlightNumber>
+                    <stl19:ClassOfService>L</stl19:ClassOfService>
+                    <stl19:ActionCode>TK</stl19:ActionCode>
+                    <stl19:NumberInParty>2</stl19:NumberInParty>
+                    <stl19:SegmentSpecialRequests>
+                      <stl19:GenericSpecialRequest id="56" msgType="S" type="G">
+                        <stl19:Code>TKNE</stl19:Code>
+                        <stl19:FreeText>VN HK1 KULSGN0674L17DEC/7382428344650C1</stl19:FreeText>
+                        <stl19:ActionCode>HK</stl19:ActionCode>
+                        <stl19:NumberInParty>1</stl19:NumberInParty>
+                        <stl19:AirlineCode>VN</stl19:AirlineCode>
+                        <stl19:TicketNumber>7382428344650</stl19:TicketNumber>
+                        <stl19:FullText>TKNE VN HK1 KULSGN0674L17DEC/7382428344650C1</stl19:FullText>
+                      </stl19:GenericSpecialRequest>
+                      <stl19:GenericSpecialRequest id="60" msgType="S" type="G">
+                        <stl19:Code>TKNE</stl19:Code>
+                        <stl19:FreeText>VN HK1 KULSGN0674L17DEC/7382428344651C1</stl19:FreeText>
+                        <stl19:ActionCode>HK</stl19:ActionCode>
+                        <stl19:NumberInParty>1</stl19:NumberInParty>
+                        <stl19:AirlineCode>VN</stl19:AirlineCode>
+                        <stl19:TicketNumber>7382428344651</stl19:TicketNumber>
+                        <stl19:FullText>TKNE VN HK1 KULSGN0674L17DEC/7382428344651C1</stl19:FullText>
+                      </stl19:GenericSpecialRequest>
+                    </stl19:SegmentSpecialRequests>
+                    <stl19:inboundConnection>false</stl19:inboundConnection>
+                    <stl19:outboundConnection>true</stl19:outboundConnection>
+                    <stl19:ScheduleChangeIndicator>false</stl19:ScheduleChangeIndicator>
+                    <stl19:SegmentBookedDate>2022-08-30T03:07:00</stl19:SegmentBookedDate>
+                    <stl19:Banner>MARKETED BY VIETNAM AIRLINES</stl19:Banner>
+                    <stl19:Informational>false</stl19:Informational>
+                  </stl19:Air>
+                </stl19:Segment>
+                <stl19:Segment id="37" sequence="3">
+                  <stl19:Air CodeShare="false" DayOfWeekInd="6" ResBookDesigCode="L" SmokingAllowed="false" SpecialMeal="false" id="37" isPast="true" segmentAssociationId="5" sequence="3">
+                    <stl19:DepartureAirport>SGN</stl19:DepartureAirport>
+                    <stl19:DepartureAirportCodeContext>IATA</stl19:DepartureAirportCodeContext>
+                    <stl19:ArrivalAirport>HAN</stl19:ArrivalAirport>
+                    <stl19:ArrivalAirportCodeContext>IATA</stl19:ArrivalAirportCodeContext>
+                    <stl19:OperatingAirlineCode>VN</stl19:OperatingAirlineCode>
+                    <stl19:OperatingAirlineShortName>VIETNAM AIRLINES</stl19:OperatingAirlineShortName>
+                    <stl19:OperatingFlightNumber>0258</stl19:OperatingFlightNumber>
+                    <stl19:EquipmentType>321</stl19:EquipmentType>
+                    <stl19:MarketingAirlineCode>VN</stl19:MarketingAirlineCode>
+                    <stl19:MarketingFlightNumber>0258</stl19:MarketingFlightNumber>
+                    <stl19:OperatingClassOfService>L</stl19:OperatingClassOfService>
+                    <stl19:MarketingClassOfService>L</stl19:MarketingClassOfService>
+                    <stl19:MarriageGrp>
+                      <stl19:Ind>0</stl19:Ind>
+                      <stl19:Group>0</stl19:Group>
+                      <stl19:Sequence>0</stl19:Sequence>
+                    </stl19:MarriageGrp>
+                    <stl19:Seats>
+                      <stl19:PreReservedSeats>
+                        <stl19:PreReservedSeat id="69">
+                          <stl19:SeatNumber>24F</stl19:SeatNumber>
+                          <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                          <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                          <stl19:BoardPoint>SGN</stl19:BoardPoint>
+                          <stl19:OffPoint>HAN</stl19:OffPoint>
+                          <stl19:Changed>N</stl19:Changed>
+                          <stl19:NameNumber>01.01</stl19:NameNumber>
+                        </stl19:PreReservedSeat>
+                        <stl19:PreReservedSeat id="70">
+                          <stl19:SeatNumber>24E</stl19:SeatNumber>
+                          <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                          <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                          <stl19:BoardPoint>SGN</stl19:BoardPoint>
+                          <stl19:OffPoint>HAN</stl19:OffPoint>
+                          <stl19:Changed>N</stl19:Changed>
+                          <stl19:NameNumber>02.01</stl19:NameNumber>
+                        </stl19:PreReservedSeat>
+                      </stl19:PreReservedSeats>
+                    </stl19:Seats>
+                    <stl19:AirlineRefId>DCVN*MJTMUB</stl19:AirlineRefId>
+                    <stl19:Eticket>true</stl19:Eticket>
+                    <stl19:DepartureDateTime>2022-12-17T19:00:00</stl19:DepartureDateTime>
+                    <stl19:ArrivalDateTime>2022-12-17T21:15:00</stl19:ArrivalDateTime>
+                    <stl19:FlightNumber>0258</stl19:FlightNumber>
+                    <stl19:ClassOfService>L</stl19:ClassOfService>
+                    <stl19:ActionCode>TK</stl19:ActionCode>
+                    <stl19:NumberInParty>2</stl19:NumberInParty>
+                    <stl19:SegmentSpecialRequests>
+                      <stl19:GenericSpecialRequest id="57" msgType="S" type="G">
+                        <stl19:Code>TKNE</stl19:Code>
+                        <stl19:FreeText>VN HK1 SGNHAN0258L17DEC/7382428344650C2</stl19:FreeText>
+                        <stl19:ActionCode>HK</stl19:ActionCode>
+                        <stl19:NumberInParty>1</stl19:NumberInParty>
+                        <stl19:AirlineCode>VN</stl19:AirlineCode>
+                        <stl19:TicketNumber>7382428344650</stl19:TicketNumber>
+                        <stl19:FullText>TKNE VN HK1 SGNHAN0258L17DEC/7382428344650C2</stl19:FullText>
+                      </stl19:GenericSpecialRequest>
+                      <stl19:GenericSpecialRequest id="61" msgType="S" type="G">
+                        <stl19:Code>TKNE</stl19:Code>
+                        <stl19:FreeText>VN HK1 SGNHAN0258L17DEC/7382428344651C2</stl19:FreeText>
+                        <stl19:ActionCode>HK</stl19:ActionCode>
+                        <stl19:NumberInParty>1</stl19:NumberInParty>
+                        <stl19:AirlineCode>VN</stl19:AirlineCode>
+                        <stl19:TicketNumber>7382428344651</stl19:TicketNumber>
+                        <stl19:FullText>TKNE VN HK1 SGNHAN0258L17DEC/7382428344651C2</stl19:FullText>
+                      </stl19:GenericSpecialRequest>
+                    </stl19:SegmentSpecialRequests>
+                    <stl19:inboundConnection>true</stl19:inboundConnection>
+                    <stl19:outboundConnection>false</stl19:outboundConnection>
+                    <stl19:ScheduleChangeIndicator>false</stl19:ScheduleChangeIndicator>
+                    <stl19:SegmentBookedDate>2022-08-30T03:07:00</stl19:SegmentBookedDate>
+                    <stl19:Banner>MARKETED BY VIETNAM AIRLINES</stl19:Banner>
+                    <stl19:Informational>false</stl19:Informational>
+                  </stl19:Air>
+                </stl19:Segment>
+                <stl19:Segment id="4" sequence="4">
+                  <stl19:Air CodeShare="false" DayOfWeekInd="4" ResBookDesigCode="Q" SmokingAllowed="false" SpecialMeal="false" id="4" isPast="false" segmentAssociationId="3" sequence="4">
+                    <stl19:DepartureAirport>HAN</stl19:DepartureAirport>
+                    <stl19:DepartureAirportCodeContext>IATA</stl19:DepartureAirportCodeContext>
+                    <stl19:ArrivalAirport>KUL</stl19:ArrivalAirport>
+                    <stl19:ArrivalAirportCodeContext>IATA</stl19:ArrivalAirportCodeContext>
+                    <stl19:OperatingAirlineCode>VN</stl19:OperatingAirlineCode>
+                    <stl19:OperatingAirlineShortName>VIETNAM AIRLINES</stl19:OperatingAirlineShortName>
+                    <stl19:OperatingFlightNumber>0681</stl19:OperatingFlightNumber>
+                    <stl19:EquipmentType>321</stl19:EquipmentType>
+                    <stl19:MarketingAirlineCode>VN</stl19:MarketingAirlineCode>
+                    <stl19:MarketingFlightNumber>0681</stl19:MarketingFlightNumber>
+                    <stl19:OperatingClassOfService>Q</stl19:OperatingClassOfService>
+                    <stl19:MarketingClassOfService>Q</stl19:MarketingClassOfService>
+                    <stl19:MarriageGrp>
+                      <stl19:Ind>0</stl19:Ind>
+                      <stl19:Group>0</stl19:Group>
+                      <stl19:Sequence>0</stl19:Sequence>
+                    </stl19:MarriageGrp>
+                    <stl19:Seats />
+                    <stl19:AirlineRefId>DCVN*MJTMUB</stl19:AirlineRefId>
+                    <stl19:Eticket>true</stl19:Eticket>
+                    <stl19:DepartureDateTime>2022-12-22T11:55:00</stl19:DepartureDateTime>
+                    <stl19:ArrivalDateTime>2022-12-22T16:20:00</stl19:ArrivalDateTime>
+                    <stl19:FlightNumber>0681</stl19:FlightNumber>
+                    <stl19:ClassOfService>Q</stl19:ClassOfService>
+                    <stl19:ActionCode>UN</stl19:ActionCode>
+                    <stl19:NumberInParty>2</stl19:NumberInParty>
+                    <stl19:SegmentSpecialRequests />
+                    <stl19:inboundConnection>false</stl19:inboundConnection>
+                    <stl19:outboundConnection>false</stl19:outboundConnection>
+                    <stl19:ScheduleChangeIndicator>false</stl19:ScheduleChangeIndicator>
+                    <stl19:SegmentBookedDate>2022-08-23T05:07:00</stl19:SegmentBookedDate>
+                    <stl19:Banner>MARKETED BY VIETNAM AIRLINES</stl19:Banner>
+                    <stl19:Informational>false</stl19:Informational>
+                  </stl19:Air>
+                </stl19:Segment>
+                <stl19:Segment id="38" sequence="5">
+                  <stl19:Air CodeShare="false" DayOfWeekInd="4" ResBookDesigCode="Q" SmokingAllowed="false" SpecialMeal="false" id="38" isPast="false" segmentAssociationId="6" sequence="5">
+                    <stl19:DepartureAirport>HAN</stl19:DepartureAirport>
+                    <stl19:DepartureAirportCodeContext>IATA</stl19:DepartureAirportCodeContext>
+                    <stl19:ArrivalAirport>SGN</stl19:ArrivalAirport>
+                    <stl19:ArrivalAirportCodeContext>IATA</stl19:ArrivalAirportCodeContext>
+                    <stl19:OperatingAirlineCode>VN</stl19:OperatingAirlineCode>
+                    <stl19:OperatingAirlineShortName>VIETNAM AIRLINES</stl19:OperatingAirlineShortName>
+                    <stl19:OperatingFlightNumber>0207</stl19:OperatingFlightNumber>
+                    <stl19:EquipmentType>321</stl19:EquipmentType>
+                    <stl19:MarketingAirlineCode>VN</stl19:MarketingAirlineCode>
+                    <stl19:MarketingFlightNumber>0207</stl19:MarketingFlightNumber>
+                    <stl19:OperatingClassOfService>Q</stl19:OperatingClassOfService>
+                    <stl19:MarketingClassOfService>Q</stl19:MarketingClassOfService>
+                    <stl19:MarriageGrp>
+                      <stl19:Ind>0</stl19:Ind>
+                      <stl19:Group>0</stl19:Group>
+                      <stl19:Sequence>0</stl19:Sequence>
+                    </stl19:MarriageGrp>
+                    <stl19:Seats />
+                    <stl19:AirlineRefId>DCVN*MJTMUB</stl19:AirlineRefId>
+                    <stl19:Eticket>true</stl19:Eticket>
+                    <stl19:DepartureDateTime>2022-12-22T07:00:00</stl19:DepartureDateTime>
+                    <stl19:ArrivalDateTime>2022-12-22T09:15:00</stl19:ArrivalDateTime>
+                    <stl19:FlightNumber>0207</stl19:FlightNumber>
+                    <stl19:ClassOfService>Q</stl19:ClassOfService>
+                    <stl19:ActionCode>HX</stl19:ActionCode>
+                    <stl19:NumberInParty>2</stl19:NumberInParty>
+                    <stl19:SegmentSpecialRequests />
+                    <stl19:inboundConnection>false</stl19:inboundConnection>
+                    <stl19:outboundConnection>true</stl19:outboundConnection>
+                    <stl19:ScheduleChangeIndicator>false</stl19:ScheduleChangeIndicator>
+                    <stl19:SegmentBookedDate>2022-08-30T03:07:00</stl19:SegmentBookedDate>
+                    <stl19:Banner>MARKETED BY VIETNAM AIRLINES</stl19:Banner>
+                    <stl19:Informational>false</stl19:Informational>
+                  </stl19:Air>
+                </stl19:Segment>
+                <stl19:Segment id="39" sequence="6">
+                  <stl19:Air CodeShare="false" DayOfWeekInd="4" ResBookDesigCode="Q" SmokingAllowed="false" SpecialMeal="false" id="39" isPast="false" segmentAssociationId="7" sequence="6">
+                    <stl19:DepartureAirport>SGN</stl19:DepartureAirport>
+                    <stl19:DepartureAirportCodeContext>IATA</stl19:DepartureAirportCodeContext>
+                    <stl19:ArrivalAirport>KUL</stl19:ArrivalAirport>
+                    <stl19:ArrivalAirportCodeContext>IATA</stl19:ArrivalAirportCodeContext>
+                    <stl19:OperatingAirlineCode>VN</stl19:OperatingAirlineCode>
+                    <stl19:OperatingAirlineShortName>VIETNAM AIRLINES</stl19:OperatingAirlineShortName>
+                    <stl19:OperatingFlightNumber>0675</stl19:OperatingFlightNumber>
+                    <stl19:EquipmentType>321</stl19:EquipmentType>
+                    <stl19:MarketingAirlineCode>VN</stl19:MarketingAirlineCode>
+                    <stl19:MarketingFlightNumber>0675</stl19:MarketingFlightNumber>
+                    <stl19:OperatingClassOfService>Q</stl19:OperatingClassOfService>
+                    <stl19:MarketingClassOfService>Q</stl19:MarketingClassOfService>
+                    <stl19:MarriageGrp>
+                      <stl19:Ind>0</stl19:Ind>
+                      <stl19:Group>0</stl19:Group>
+                      <stl19:Sequence>0</stl19:Sequence>
+                    </stl19:MarriageGrp>
+                    <stl19:Seats />
+                    <stl19:AirlineRefId>DCVN*MJTMUB</stl19:AirlineRefId>
+                    <stl19:Eticket>true</stl19:Eticket>
+                    <stl19:DepartureDateTime>2022-12-22T11:35:00</stl19:DepartureDateTime>
+                    <stl19:ArrivalDateTime>2022-12-22T14:45:00</stl19:ArrivalDateTime>
+                    <stl19:FlightNumber>0675</stl19:FlightNumber>
+                    <stl19:ClassOfService>Q</stl19:ClassOfService>
+                    <stl19:ActionCode>HX</stl19:ActionCode>
+                    <stl19:NumberInParty>2</stl19:NumberInParty>
+                    <stl19:SegmentSpecialRequests />
+                    <stl19:inboundConnection>true</stl19:inboundConnection>
+                    <stl19:outboundConnection>false</stl19:outboundConnection>
+                    <stl19:ScheduleChangeIndicator>false</stl19:ScheduleChangeIndicator>
+                    <stl19:SegmentBookedDate>2022-08-30T03:07:00</stl19:SegmentBookedDate>
+                    <stl19:Banner>MARKETED BY VIETNAM AIRLINES</stl19:Banner>
+                    <stl19:Informational>false</stl19:Informational>
+                  </stl19:Air>
+                </stl19:Segment>
+                <stl19:Segment id="46" sequence="7">
+                  <stl19:Air CodeShare="false" DayOfWeekInd="4" ResBookDesigCode="Q" SmokingAllowed="false" SpecialMeal="false" id="46" isPast="false" segmentAssociationId="8" sequence="7">
+                    <stl19:DepartureAirport>HAN</stl19:DepartureAirport>
+                    <stl19:DepartureAirportCodeContext>IATA</stl19:DepartureAirportCodeContext>
+                    <stl19:ArrivalAirport>SGN</stl19:ArrivalAirport>
+                    <stl19:ArrivalAirportCodeContext>IATA</stl19:ArrivalAirportCodeContext>
+                    <stl19:OperatingAirlineCode>VN</stl19:OperatingAirlineCode>
+                    <stl19:OperatingAirlineShortName>VIETNAM AIRLINES</stl19:OperatingAirlineShortName>
+                    <stl19:OperatingFlightNumber>0221</stl19:OperatingFlightNumber>
+                    <stl19:EquipmentType>787</stl19:EquipmentType>
+                    <stl19:MarketingAirlineCode>VN</stl19:MarketingAirlineCode>
+                    <stl19:MarketingFlightNumber>0221</stl19:MarketingFlightNumber>
+                    <stl19:OperatingClassOfService>Q</stl19:OperatingClassOfService>
+                    <stl19:MarketingClassOfService>Q</stl19:MarketingClassOfService>
+                    <stl19:MarriageGrp>
+                      <stl19:Ind>0</stl19:Ind>
+                      <stl19:Group>0</stl19:Group>
+                      <stl19:Sequence>0</stl19:Sequence>
+                    </stl19:MarriageGrp>
+                    <stl19:Seats>
+                      <stl19:PreReservedSeats>
+                        <stl19:PreReservedSeat id="107">
+                          <stl19:SeatNumber>47H</stl19:SeatNumber>
+                          <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                          <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                          <stl19:BoardPoint>HAN</stl19:BoardPoint>
+                          <stl19:OffPoint>SGN</stl19:OffPoint>
+                          <stl19:Changed>N</stl19:Changed>
+                          <stl19:NameNumber>01.01</stl19:NameNumber>
+                        </stl19:PreReservedSeat>
+                        <stl19:PreReservedSeat id="109">
+                          <stl19:SeatNumber>47G</stl19:SeatNumber>
+                          <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                          <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                          <stl19:BoardPoint>HAN</stl19:BoardPoint>
+                          <stl19:OffPoint>SGN</stl19:OffPoint>
+                          <stl19:Changed>N</stl19:Changed>
+                          <stl19:NameNumber>02.01</stl19:NameNumber>
+                        </stl19:PreReservedSeat>
+                      </stl19:PreReservedSeats>
+                    </stl19:Seats>
+                    <stl19:AirlineRefId>ABVN*MJTMUB</stl19:AirlineRefId>
+                    <stl19:Eticket>true</stl19:Eticket>
+                    <stl19:DepartureDateTime>2022-12-22T21:00:00</stl19:DepartureDateTime>
+                    <stl19:ArrivalDateTime>2022-12-22T23:15:00</stl19:ArrivalDateTime>
+                    <stl19:FlightNumber>0221</stl19:FlightNumber>
+                    <stl19:ClassOfService>Q</stl19:ClassOfService>
+                    <stl19:ActionCode>HK</stl19:ActionCode>
+                    <stl19:NumberInParty>2</stl19:NumberInParty>
+                    <stl19:SegmentSpecialRequests>
+                      <stl19:GenericSpecialRequest id="58" msgType="S" type="G">
+                        <stl19:Code>TKNE</stl19:Code>
+                        <stl19:FreeText>VN HK1 HANSGN0221Q22DEC/7382428344650C3</stl19:FreeText>
+                        <stl19:ActionCode>HK</stl19:ActionCode>
+                        <stl19:NumberInParty>1</stl19:NumberInParty>
+                        <stl19:AirlineCode>VN</stl19:AirlineCode>
+                        <stl19:TicketNumber>7382428344650</stl19:TicketNumber>
+                        <stl19:FullText>TKNE VN HK1 HANSGN0221Q22DEC/7382428344650C3</stl19:FullText>
+                      </stl19:GenericSpecialRequest>
+                      <stl19:GenericSpecialRequest id="62" msgType="S" type="G">
+                        <stl19:Code>TKNE</stl19:Code>
+                        <stl19:FreeText>VN HK1 HANSGN0221Q22DEC/7382428344651C3</stl19:FreeText>
+                        <stl19:ActionCode>HK</stl19:ActionCode>
+                        <stl19:NumberInParty>1</stl19:NumberInParty>
+                        <stl19:AirlineCode>VN</stl19:AirlineCode>
+                        <stl19:TicketNumber>7382428344651</stl19:TicketNumber>
+                        <stl19:FullText>TKNE VN HK1 HANSGN0221Q22DEC/7382428344651C3</stl19:FullText>
+                      </stl19:GenericSpecialRequest>
+                    </stl19:SegmentSpecialRequests>
+                    <stl19:inboundConnection>false</stl19:inboundConnection>
+                    <stl19:outboundConnection>true</stl19:outboundConnection>
+                    <stl19:ScheduleChangeIndicator>false</stl19:ScheduleChangeIndicator>
+                    <stl19:SegmentBookedDate>2022-10-04T21:45:00</stl19:SegmentBookedDate>
+                    <stl19:Banner>MARKETED BY VIETNAM AIRLINES</stl19:Banner>
+                    <stl19:Informational>false</stl19:Informational>
+                  </stl19:Air>
+                </stl19:Segment>
+                <stl19:Segment id="47" sequence="8">
+                  <stl19:Air CodeShare="false" DayOfWeekInd="5" ResBookDesigCode="Q" SmokingAllowed="false" SpecialMeal="false" id="47" isPast="false" segmentAssociationId="9" sequence="8">
+                    <stl19:DepartureAirport>SGN</stl19:DepartureAirport>
+                    <stl19:DepartureAirportCodeContext>IATA</stl19:DepartureAirportCodeContext>
+                    <stl19:ArrivalAirport>KUL</stl19:ArrivalAirport>
+                    <stl19:ArrivalAirportCodeContext>IATA</stl19:ArrivalAirportCodeContext>
+                    <stl19:OperatingAirlineCode>VN</stl19:OperatingAirlineCode>
+                    <stl19:OperatingAirlineShortName>VIETNAM AIRLINES</stl19:OperatingAirlineShortName>
+                    <stl19:OperatingFlightNumber>0677</stl19:OperatingFlightNumber>
+                    <stl19:EquipmentType>321</stl19:EquipmentType>
+                    <stl19:MarketingAirlineCode>VN</stl19:MarketingAirlineCode>
+                    <stl19:MarketingFlightNumber>0677</stl19:MarketingFlightNumber>
+                    <stl19:OperatingClassOfService>Q</stl19:OperatingClassOfService>
+                    <stl19:MarketingClassOfService>Q</stl19:MarketingClassOfService>
+                    <stl19:MarriageGrp>
+                      <stl19:Ind>0</stl19:Ind>
+                      <stl19:Group>0</stl19:Group>
+                      <stl19:Sequence>0</stl19:Sequence>
+                    </stl19:MarriageGrp>
+                    <stl19:Seats>
+                      <stl19:PreReservedSeats>
+                        <stl19:PreReservedSeat id="71">
+                          <stl19:SeatNumber>11D</stl19:SeatNumber>
+                          <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                          <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                          <stl19:BoardPoint>SGN</stl19:BoardPoint>
+                          <stl19:OffPoint>KUL</stl19:OffPoint>
+                          <stl19:Changed>N</stl19:Changed>
+                          <stl19:NameNumber>01.01</stl19:NameNumber>
+                        </stl19:PreReservedSeat>
+                        <stl19:PreReservedSeat id="72">
+                          <stl19:SeatNumber>11E</stl19:SeatNumber>
+                          <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                          <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                          <stl19:BoardPoint>SGN</stl19:BoardPoint>
+                          <stl19:OffPoint>KUL</stl19:OffPoint>
+                          <stl19:Changed>N</stl19:Changed>
+                          <stl19:NameNumber>02.01</stl19:NameNumber>
+                        </stl19:PreReservedSeat>
+                      </stl19:PreReservedSeats>
+                    </stl19:Seats>
+                    <stl19:AirlineRefId>ABVN*MJTMUB</stl19:AirlineRefId>
+                    <stl19:Eticket>true</stl19:Eticket>
+                    <stl19:DepartureDateTime>2022-12-23T08:10:00</stl19:DepartureDateTime>
+                    <stl19:ArrivalDateTime>2022-12-23T11:20:00</stl19:ArrivalDateTime>
+                    <stl19:FlightNumber>0677</stl19:FlightNumber>
+                    <stl19:ClassOfService>Q</stl19:ClassOfService>
+                    <stl19:ActionCode>TK</stl19:ActionCode>
+                    <stl19:NumberInParty>2</stl19:NumberInParty>
+                    <stl19:SegmentSpecialRequests>
+                      <stl19:GenericSpecialRequest id="59" msgType="S" type="G">
+                        <stl19:Code>TKNE</stl19:Code>
+                        <stl19:FreeText>VN HK1 SGNKUL0677Q23DEC/7382428344650C4</stl19:FreeText>
+                        <stl19:ActionCode>HK</stl19:ActionCode>
+                        <stl19:NumberInParty>1</stl19:NumberInParty>
+                        <stl19:AirlineCode>VN</stl19:AirlineCode>
+                        <stl19:TicketNumber>7382428344650</stl19:TicketNumber>
+                        <stl19:FullText>TKNE VN HK1 SGNKUL0677Q23DEC/7382428344650C4</stl19:FullText>
+                      </stl19:GenericSpecialRequest>
+                      <stl19:GenericSpecialRequest id="63" msgType="S" type="G">
+                        <stl19:Code>TKNE</stl19:Code>
+                        <stl19:FreeText>VN HK1 SGNKUL0677Q23DEC/7382428344651C4</stl19:FreeText>
+                        <stl19:ActionCode>HK</stl19:ActionCode>
+                        <stl19:NumberInParty>1</stl19:NumberInParty>
+                        <stl19:AirlineCode>VN</stl19:AirlineCode>
+                        <stl19:TicketNumber>7382428344651</stl19:TicketNumber>
+                        <stl19:FullText>TKNE VN HK1 SGNKUL0677Q23DEC/7382428344651C4</stl19:FullText>
+                      </stl19:GenericSpecialRequest>
+                    </stl19:SegmentSpecialRequests>
+                    <stl19:inboundConnection>true</stl19:inboundConnection>
+                    <stl19:outboundConnection>false</stl19:outboundConnection>
+                    <stl19:ScheduleChangeIndicator>false</stl19:ScheduleChangeIndicator>
+                    <stl19:SegmentBookedDate>2022-10-04T21:45:00</stl19:SegmentBookedDate>
+                    <stl19:Banner>MARKETED BY VIETNAM AIRLINES</stl19:Banner>
+                    <stl19:Informational>false</stl19:Informational>
+                  </stl19:Air>
+                </stl19:Segment>
+              </stl19:Segments>
+              <stl19:TicketingInfo>
+                <stl19:AlreadyTicketed elementId="pnr-30" id="30" index="1">
+                  <stl19:Code>T-23AUG-OE7K*AXZ</stl19:Code>
+                </stl19:AlreadyTicketed>
+                <stl19:ETicketNumber elementId="pnr-27" id="27" index="2">TE 7386744503729-HK LAU/C OE7K*AXZ 1818/23AUG I</stl19:ETicketNumber>
+                <stl19:ETicketNumber elementId="pnr-28" id="28" index="3">TE 7386744503730-HK CHION/T OE7K*AXZ 1818/23AUG I</stl19:ETicketNumber>
+                <stl19:ETicketNumber elementId="pnr-64" id="64" index="4">TE 7382428344650 LAU/C   SYSSYS 2306/04OCT</stl19:ETicketNumber>
+                <stl19:ETicketNumber elementId="pnr-65" id="65" index="5">TE 7382428344651 CHION/T SYSSYS 2306/04OCT</stl19:ETicketNumber>
+                <stl19:TicketDetails elementId="pnr-27" id="27" index="2">
+                  <stl19:OriginalTicketDetails>TE 7386744503729-HK LAU/C OE7K*AXZ 1818/23AUG I</stl19:OriginalTicketDetails>
+                  <stl19:TransactionIndicator>TE</stl19:TransactionIndicator>
+                  <stl19:TicketNumber>7386744503729</stl19:TicketNumber>
+                  <stl19:PassengerName>LAU/C</stl19:PassengerName>
+                  <stl19:AgencyLocation>OE7K</stl19:AgencyLocation>
+                  <stl19:DutyCode>*</stl19:DutyCode>
+                  <stl19:AgentSine>AXZ</stl19:AgentSine>
+                  <stl19:Timestamp>2022-08-23T18:18:00</stl19:Timestamp>
+                  <stl19:PaymentType />
+                </stl19:TicketDetails>
+                <stl19:TicketDetails elementId="pnr-28" id="28" index="3">
+                  <stl19:OriginalTicketDetails>TE 7386744503730-HK CHION/T OE7K*AXZ 1818/23AUG I</stl19:OriginalTicketDetails>
+                  <stl19:TransactionIndicator>TE</stl19:TransactionIndicator>
+                  <stl19:TicketNumber>7386744503730</stl19:TicketNumber>
+                  <stl19:PassengerName>CHION/T</stl19:PassengerName>
+                  <stl19:AgencyLocation>OE7K</stl19:AgencyLocation>
+                  <stl19:DutyCode>*</stl19:DutyCode>
+                  <stl19:AgentSine>AXZ</stl19:AgentSine>
+                  <stl19:Timestamp>2022-08-23T18:18:00</stl19:Timestamp>
+                  <stl19:PaymentType />
+                </stl19:TicketDetails>
+                <stl19:TicketDetails elementId="pnr-64" id="64" index="4">
+                  <stl19:OriginalTicketDetails>TE 7382428344650 LAU/C   SYSSYS 2306/04OCT</stl19:OriginalTicketDetails>
+                  <stl19:TransactionIndicator>TE</stl19:TransactionIndicator>
+                  <stl19:TicketNumber>7382428344650</stl19:TicketNumber>
+                  <stl19:PassengerName>LAU/C</stl19:PassengerName>
+                  <stl19:AgencyLocation>SYS</stl19:AgencyLocation>
+                  <stl19:DutyCode />
+                  <stl19:AgentSine>SYS</stl19:AgentSine>
+                  <stl19:Timestamp>2022-10-04T23:06:00</stl19:Timestamp>
+                  <stl19:PaymentType />
+                </stl19:TicketDetails>
+                <stl19:TicketDetails elementId="pnr-65" id="65" index="5">
+                  <stl19:OriginalTicketDetails>TE 7382428344651 CHION/T SYSSYS 2306/04OCT</stl19:OriginalTicketDetails>
+                  <stl19:TransactionIndicator>TE</stl19:TransactionIndicator>
+                  <stl19:TicketNumber>7382428344651</stl19:TicketNumber>
+                  <stl19:PassengerName>CHION/T</stl19:PassengerName>
+                  <stl19:AgencyLocation>SYS</stl19:AgencyLocation>
+                  <stl19:DutyCode />
+                  <stl19:AgentSine>SYS</stl19:AgentSine>
+                  <stl19:Timestamp>2022-10-04T23:06:00</stl19:Timestamp>
+                  <stl19:PaymentType />
+                </stl19:TicketDetails>
+              </stl19:TicketingInfo>
+              <stl19:ItineraryPricing />
+            </stl19:PassengerReservation>
+            <stl19:ReceivedFrom>
+              <stl19:Name>K</stl19:Name>
+            </stl19:ReceivedFrom>
+            <stl19:Addresses>
+              <stl19:Address>
+                <stl19:AddressLines>
+                  <stl19:AddressLine id="13" type="O">
+                    <stl19:Text>HK MEIYA TRAVEL CO LTD. ,</stl19:Text>
+                  </stl19:AddressLine>
+                </stl19:AddressLines>
+              </stl19:Address>
+            </stl19:Addresses>
+            <stl19:PhoneNumbers>
+              <stl19:PhoneNumber elementId="pnr-15" id="15" index="1">
+                <stl19:CityCode>HKG</stl19:CityCode>
+                <stl19:Number>852 36210821</stl19:Number>
+              </stl19:PhoneNumber>
+            </stl19:PhoneNumbers>
+            <stl19:Remarks>
+              <stl19:Remark elementId="pnr-22" id="22" index="1" type="HS">
+                <stl19:RemarkLines>
+                  <stl19:RemarkLine>
+                    <stl19:Text>AUTH-UATP/TP8043/23AUG/01721661249883020178       </stl19:Text>
+                  </stl19:RemarkLine>
+                </stl19:RemarkLines>
+              </stl19:Remark>
+              <stl19:Remark elementId="pnr-23" id="23" index="2" type="HS">
+                <stl19:RemarkLines>
+                  <stl19:RemarkLine>
+                    <stl19:Text>  AUTH-APV/543220/0/HKD2874                       </stl19:Text>
+                  </stl19:RemarkLine>
+                </stl19:RemarkLines>
+              </stl19:Remark>
+              <stl19:Remark elementId="pnr-24" id="24" index="3" type="HS">
+                <stl19:RemarkLines>
+                  <stl19:RemarkLine>
+                    <stl19:Text>XXAUTH/543220/TP161149XXXXX8043/VN/HKD2874/23AUG/S</stl19:Text>
+                  </stl19:RemarkLine>
+                </stl19:RemarkLines>
+              </stl19:Remark>
+              <stl19:Remark elementId="pnr-29" id="29" index="4" type="REG">
+                <stl19:RemarkLines>
+                  <stl19:RemarkLine>
+                    <stl19:Text>XXTAW/</stl19:Text>
+                  </stl19:RemarkLine>
+                </stl19:RemarkLines>
+              </stl19:Remark>
+            </stl19:Remarks>
+            <stl19:EmailAddresses />
+            <stl19:AccountingLines>
+              <stl19:AccountingLine elementId="pnr-25" id="25" index="1">
+                <stl19:FareApplication>ONE</stl19:FareApplication>
+                <stl19:FormOfPaymentCode>CC</stl19:FormOfPaymentCode>
+                <stl19:AirlineDesignator>VN</stl19:AirlineDesignator>
+                <stl19:DocumentNumber>6744503729</stl19:DocumentNumber>
+                <stl19:CommissionAmount>0</stl19:CommissionAmount>
+                <stl19:BaseFare>910</stl19:BaseFare>
+                <stl19:TaxAmount>527</stl19:TaxAmount>
+                <stl19:CreditCardNumber>161149XXXXX8043</stl19:CreditCardNumber>
+                <stl19:CreditCardCode>TP</stl19:CreditCardCode>
+                <stl19:PassengerName>LAU CHUI YIEN MS</stl19:PassengerName>
+                <stl19:NumberOfConjunctedDocuments>1</stl19:NumberOfConjunctedDocuments>
+                <stl19:TarriffBasis>F</stl19:TarriffBasis>
+              </stl19:AccountingLine>
+              <stl19:AccountingLine elementId="pnr-26" id="26" index="2">
+                <stl19:FareApplication>ONE</stl19:FareApplication>
+                <stl19:FormOfPaymentCode>CC</stl19:FormOfPaymentCode>
+                <stl19:AirlineDesignator>VN</stl19:AirlineDesignator>
+                <stl19:DocumentNumber>6744503730</stl19:DocumentNumber>
+                <stl19:CommissionAmount>0</stl19:CommissionAmount>
+                <stl19:BaseFare>910</stl19:BaseFare>
+                <stl19:TaxAmount>527</stl19:TaxAmount>
+                <stl19:CreditCardNumber>161149XXXXX8043</stl19:CreditCardNumber>
+                <stl19:CreditCardCode>TP</stl19:CreditCardCode>
+                <stl19:PassengerName>CHIONG TZE LING MS</stl19:PassengerName>
+                <stl19:NumberOfConjunctedDocuments>1</stl19:NumberOfConjunctedDocuments>
+                <stl19:TarriffBasis>F</stl19:TarriffBasis>
+              </stl19:AccountingLine>
+            </stl19:AccountingLines>
+            <stl19:GenericSpecialRequests id="18" msgType="S" type="G">
+              <stl19:Code>OTHS</stl19:Code>
+              <stl19:FreeText>ADV TKT BY 28AUG22 1807HKGHK OR WL BE CXLD</stl19:FreeText>
+              <stl19:AirlineCode>1B</stl19:AirlineCode>
+              <stl19:FullText>OTHS 1B ADV TKT BY 28AUG22 1807HKGHK OR WL BE CXLD</stl19:FullText>
+            </stl19:GenericSpecialRequests>
+            <stl19:GenericSpecialRequests id="20" msgType="S" type="G">
+              <stl19:Code>OTHS</stl19:Code>
+              <stl19:FreeText>CHK POSSIBLE DUP WITH KZCGRI OR WL BE XCLD</stl19:FreeText>
+              <stl19:AirlineCode>1B</stl19:AirlineCode>
+              <stl19:FullText>OTHS 1B CHK POSSIBLE DUP WITH KZCGRI OR WL BE XCLD</stl19:FullText>
+            </stl19:GenericSpecialRequests>
+            <stl19:GenericSpecialRequests id="41" msgType="O" type="G">
+              <stl19:FreeText>*** PREV TIME FOR VN 674L 17DEC KULSGN  355P  455P</stl19:FreeText>
+              <stl19:AirlineCode>1B</stl19:AirlineCode>
+              <stl19:FullText>1B *** PREV TIME FOR VN 674L 17DEC KULSGN  355P  455P</stl19:FullText>
+            </stl19:GenericSpecialRequests>
+            <stl19:GenericSpecialRequests id="43" msgType="O" type="G">
+              <stl19:FreeText>*** PREV TIME FOR VN 675Q 22DEC SGNKUL 1145A  255P</stl19:FreeText>
+              <stl19:AirlineCode>1B</stl19:AirlineCode>
+              <stl19:FullText>1B *** PREV TIME FOR VN 675Q 22DEC SGNKUL 1145A  255P</stl19:FullText>
+            </stl19:GenericSpecialRequests>
+            <stl19:GenericSpecialRequests id="49" msgType="S" type="G">
+              <stl19:Code>OTHS</stl19:Code>
+              <stl19:FreeText>CHECK REDUNDANT SEGMENT OR WL BE CXLD BY 05OCT1652HKGHK</stl19:FreeText>
+              <stl19:AirlineCode>1B</stl19:AirlineCode>
+              <stl19:FullText>OTHS 1B CHECK REDUNDANT SEGMENT OR WL BE CXLD BY 05OCT1652HKGHK</stl19:FullText>
+            </stl19:GenericSpecialRequests>
+            <stl19:GenericSpecialRequests id="51" msgType="S" type="G">
+              <stl19:Code>OTHS</stl19:Code>
+              <stl19:FreeText>ADV TKT BY 10OCT22 1045HKGHK OR WL BE CXLD</stl19:FreeText>
+              <stl19:AirlineCode>1B</stl19:AirlineCode>
+              <stl19:FullText>OTHS 1B ADV TKT BY 10OCT22 1045HKGHK OR WL BE CXLD</stl19:FullText>
+            </stl19:GenericSpecialRequests>
+            <stl19:GenericSpecialRequests id="53" msgType="S" type="G">
+              <stl19:Code>OTHS</stl19:Code>
+              <stl19:FreeText>HX CANCELED DUE TO SYSTEM OR PASSENGER ACTION</stl19:FreeText>
+              <stl19:AirlineCode>1B</stl19:AirlineCode>
+              <stl19:FullText>OTHS 1B HX CANCELED DUE TO SYSTEM OR PASSENGER ACTION</stl19:FullText>
+            </stl19:GenericSpecialRequests>
+            <stl19:GenericSpecialRequests id="54" msgType="S" type="G">
+              <stl19:Code>OTHS</stl19:Code>
+              <stl19:FreeText>HX DELETE HX SEGS FROM PNR TO KEEP RES IN SYNCH</stl19:FreeText>
+              <stl19:AirlineCode>1B</stl19:AirlineCode>
+              <stl19:FullText>OTHS 1B HX DELETE HX SEGS FROM PNR TO KEEP RES IN SYNCH</stl19:FullText>
+            </stl19:GenericSpecialRequests>
+            <stl19:GenericSpecialRequests id="85" msgType="O" type="G">
+              <stl19:FreeText>*** PREV TIME FOR VN 677Q 23DEC SGNKUL  710A 1020A</stl19:FreeText>
+              <stl19:AirlineCode>1B</stl19:AirlineCode>
+              <stl19:FullText>1B *** PREV TIME FOR VN 677Q 23DEC SGNKUL  710A 1020A</stl19:FullText>
+            </stl19:GenericSpecialRequests>
+            <stl19:Profiles>
+              <stl19:Profile id="14">
+                <stl19:ProfileID>438919152</stl19:ProfileID>
+                <stl19:ProfileType>AGY</stl19:ProfileType>
+              </stl19:Profile>
+            </stl19:Profiles>
+            <stl19:History>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="46">
+                  <stl19:HistoryTimestamp>2022-12-22T06:55:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN221255 9EA5D641-001 SYN</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>677</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-23T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>KUL</stl19:OffCity>
+                  <stl19:HistoryAction>X4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>16C</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>UN</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>677</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-23T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>KUL</stl19:OffCity>
+                  <stl19:HistoryAction>A4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>11E</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="45">
+                  <stl19:HistoryTimestamp>2022-12-22T06:55:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN221255 9EAC05E5-001 SYN</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>677</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-23T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>KUL</stl19:OffCity>
+                  <stl19:HistoryAction>X4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>16B</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>UN</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>677</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-23T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>KUL</stl19:OffCity>
+                  <stl19:HistoryAction>A4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>11D</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="44">
+                  <stl19:HistoryTimestamp>2022-12-22T06:54:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN221254 9E9BA242-001 SYN</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>677</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-23T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>KUL</stl19:OffCity>
+                  <stl19:HistoryAction>X4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>16B</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>677</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-23T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>KUL</stl19:OffCity>
+                  <stl19:HistoryAction>X4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>16C</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>677</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-23T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>KUL</stl19:OffCity>
+                  <stl19:HistoryAction>A4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>16B</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>UN</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>677</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-23T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>KUL</stl19:OffCity>
+                  <stl19:HistoryAction>A4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>16C</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>UN</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="43">
+                  <stl19:HistoryTimestamp>2022-12-22T06:52:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN221252 9EA3E45F-001 SYN</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>677</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-23T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>KUL</stl19:OffCity>
+                  <stl19:HistoryAction>X4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>18E</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>UN</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>677</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-23T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>KUL</stl19:OffCity>
+                  <stl19:HistoryAction>A4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>16C</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="42">
+                  <stl19:HistoryTimestamp>2022-12-22T06:52:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN221252 9E9D5980-001 SYN</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>677</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-23T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>KUL</stl19:OffCity>
+                  <stl19:HistoryAction>X4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>18E</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>677</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-23T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>KUL</stl19:OffCity>
+                  <stl19:HistoryAction>A4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>18E</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>UN</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="41">
+                  <stl19:HistoryTimestamp>2022-12-22T06:52:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN221252 9EA53BA4-001 SYN</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>677</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-23T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>KUL</stl19:OffCity>
+                  <stl19:HistoryAction>X4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>17E</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>UN</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>677</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-23T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>KUL</stl19:OffCity>
+                  <stl19:HistoryAction>A4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>16B</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="40">
+                  <stl19:HistoryTimestamp>2022-12-22T06:52:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN221252 9EA0E5B5-001 SYN</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>677</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-23T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>KUL</stl19:OffCity>
+                  <stl19:HistoryAction>X4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>17E</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>677</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-23T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>KUL</stl19:OffCity>
+                  <stl19:HistoryAction>A4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>17E</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>UN</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="39">
+                  <stl19:HistoryTimestamp>2022-12-21T21:43:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN220343 9B78AFEC-001 SYN</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>221</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-22T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>HAN</stl19:BoardCity>
+                  <stl19:OffCity>SGN</stl19:OffCity>
+                  <stl19:HistoryAction>X4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>28B</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>UN</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>221</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-22T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>HAN</stl19:BoardCity>
+                  <stl19:OffCity>SGN</stl19:OffCity>
+                  <stl19:HistoryAction>A4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>47H</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="38">
+                  <stl19:HistoryTimestamp>2022-12-21T21:43:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN220343 9B873B3F-001 SYN</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>221</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-22T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>HAN</stl19:BoardCity>
+                  <stl19:OffCity>SGN</stl19:OffCity>
+                  <stl19:HistoryAction>X4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>29B</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>UN</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>221</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-22T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>HAN</stl19:BoardCity>
+                  <stl19:OffCity>SGN</stl19:OffCity>
+                  <stl19:HistoryAction>A4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>47G</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="37">
+                  <stl19:HistoryTimestamp>2022-12-21T20:27:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN220227 9B2D9B34-001 SYN</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>221</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-22T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>HAN</stl19:BoardCity>
+                  <stl19:OffCity>SGN</stl19:OffCity>
+                  <stl19:HistoryAction>X4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>29B</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>221</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-22T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>HAN</stl19:BoardCity>
+                  <stl19:OffCity>SGN</stl19:OffCity>
+                  <stl19:HistoryAction>X4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>28B</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>221</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-22T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>HAN</stl19:BoardCity>
+                  <stl19:OffCity>SGN</stl19:OffCity>
+                  <stl19:HistoryAction>A4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>28B</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>UN</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>221</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-22T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>HAN</stl19:BoardCity>
+                  <stl19:OffCity>SGN</stl19:OffCity>
+                  <stl19:HistoryAction>A4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>29B</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>UN</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="36">
+                  <stl19:HistoryTimestamp>2022-12-21T19:17:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN220117 9AAFFB2F-001 SYN</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>677</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-23T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>KUL</stl19:OffCity>
+                  <stl19:HistoryAction>X4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>18G</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>677</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-23T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>KUL</stl19:OffCity>
+                  <stl19:HistoryAction>A4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>17E</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="35">
+                  <stl19:HistoryTimestamp>2022-12-21T19:17:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN220117 9AC75232-001 SYN</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>221</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-22T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>HAN</stl19:BoardCity>
+                  <stl19:OffCity>SGN</stl19:OffCity>
+                  <stl19:HistoryAction>A4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>29B</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="34">
+                  <stl19:HistoryTimestamp>2022-12-21T19:17:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN220117 9AD08D4F-001 SYN</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>221</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-22T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>HAN</stl19:BoardCity>
+                  <stl19:OffCity>SGN</stl19:OffCity>
+                  <stl19:HistoryAction>A4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>28B</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="33">
+                  <stl19:HistoryTimestamp>2022-12-16T04:34:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN161034 9C5DB758-001 SYN</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>258</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-17T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>HAN</stl19:OffCity>
+                  <stl19:HistoryAction>X4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>23F</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>UN</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>258</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-17T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>HAN</stl19:OffCity>
+                  <stl19:HistoryAction>A4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>24F</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="32">
+                  <stl19:HistoryTimestamp>2022-12-16T04:34:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN161034 9C667180-001 SYN</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>258</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-17T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>HAN</stl19:OffCity>
+                  <stl19:HistoryAction>X4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>23E</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>UN</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>258</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-17T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>HAN</stl19:OffCity>
+                  <stl19:HistoryAction>A4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>24E</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="31">
+                  <stl19:HistoryTimestamp>2022-12-16T04:34:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN161034 9C666CE2-001 SYN</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>258</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-17T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>HAN</stl19:OffCity>
+                  <stl19:HistoryAction>X4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>23E</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>258</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-17T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>HAN</stl19:OffCity>
+                  <stl19:HistoryAction>X4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>23F</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>258</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-17T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>HAN</stl19:OffCity>
+                  <stl19:HistoryAction>A4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>23F</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>UN</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>258</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-17T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>HAN</stl19:OffCity>
+                  <stl19:HistoryAction>A4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>23E</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>UN</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="30">
+                  <stl19:HistoryTimestamp>2022-12-16T02:18:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN160818 9BAAFF6E-001 SYN</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>258</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-17T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>HAN</stl19:OffCity>
+                  <stl19:HistoryAction>X4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>19F</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>UN</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>258</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-17T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>HAN</stl19:OffCity>
+                  <stl19:HistoryAction>A4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>23F</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="29">
+                  <stl19:HistoryTimestamp>2022-12-16T02:17:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN160817 9B9A33F9-001 SYN</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>258</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-17T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>HAN</stl19:OffCity>
+                  <stl19:HistoryAction>X4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>19E</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>UN</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>258</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-17T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>HAN</stl19:OffCity>
+                  <stl19:HistoryAction>A4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>23E</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="28">
+                  <stl19:HistoryTimestamp>2022-12-16T00:20:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN160620 9B05E0E1-001 SYN</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>258</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-17T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>HAN</stl19:OffCity>
+                  <stl19:HistoryAction>X4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>19F</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>258</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-17T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>HAN</stl19:OffCity>
+                  <stl19:HistoryAction>A4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>19F</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>UN</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="27">
+                  <stl19:HistoryTimestamp>2022-12-16T00:19:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN160619 9AFA5E66-001 SYN</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>258</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-17T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>HAN</stl19:OffCity>
+                  <stl19:HistoryAction>X4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>19E</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>258</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-17T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>HAN</stl19:OffCity>
+                  <stl19:HistoryAction>A4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>19E</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>UN</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="16">
+                  <stl19:HistoryTimestamp>2022-10-12T12:39:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN121739 57DA1E9D-001 SYN</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:FactHistory FactType="GEN">
+                  <stl19:Type>SSR</stl19:Type>
+                  <stl19:HistoryAction>A3S</stl19:HistoryAction>
+                  <stl19:Code>CTCE</stl19:Code>
+                  <stl19:ActionId>VN</stl19:ActionId>
+                  <stl19:ActionCode>HK</stl19:ActionCode>
+                  <stl19:NumberInParty>1</stl19:NumberInParty>
+                  <stl19:FreeText>/JAMESLAU85//GMAIL</stl19:FreeText>
+                  <stl19:FullText>CTCE VN HK1/JAMESLAU85//GMAIL.COM</stl19:FullText>
+                </stl19:FactHistory>
+                <stl19:AncillaryServicesHistory>
+                  <stl19:CommercialName>PRE RESERVED SEAT ASSIGNMENT</stl19:CommercialName>
+                  <stl19:RficCode>AIR_TRANSPORT</stl19:RficCode>
+                  <stl19:RficSubcode>0B5</stl19:RficSubcode>
+                  <stl19:OwningCarrierCode>VN</stl19:OwningCarrierCode>
+                  <stl19:Vendor>ATP</stl19:Vendor>
+                  <stl19:EMDType>COUPON_ASSOCIATED</stl19:EMDType>
+                  <stl19:ConsumptionIndicator> </stl19:ConsumptionIndicator>
+                  <stl19:EquivalentPrice>
+                    <stl19:Price>0.00</stl19:Price>
+                    <stl19:Currency>MYR</stl19:Currency>
+                  </stl19:EquivalentPrice>
+                  <stl19:TTLPrice>
+                    <stl19:Price>0.00</stl19:Price>
+                    <stl19:Currency>MYR</stl19:Currency>
+                  </stl19:TTLPrice>
+                  <stl19:OriginalBasePrice>
+                    <stl19:Price>0.00</stl19:Price>
+                    <stl19:Currency>MYR</stl19:Currency>
+                  </stl19:OriginalBasePrice>
+                  <stl19:RefundIndicator>NOT_REFUNDABLE</stl19:RefundIndicator>
+                  <stl19:CommisionIndicator>NO</stl19:CommisionIndicator>
+                  <stl19:InterlineIndicator>NO</stl19:InterlineIndicator>
+                  <stl19:FeeApplicationIndicator>NOT_USED</stl19:FeeApplicationIndicator>
+                  <stl19:PassengerTypeCode>ADT</stl19:PassengerTypeCode>
+                  <stl19:TaxExemptIndicator>N</stl19:TaxExemptIndicator>
+                  <stl19:NumberOfItems>1</stl19:NumberOfItems>
+                  <stl19:ActionCode>HK</stl19:ActionCode>
+                  <stl19:SegmentIndicator>SEGMENT</stl19:SegmentIndicator>
+                  <stl19:RefundFormIndicator>NOT_REFUNDABLE</stl19:RefundFormIndicator>
+                  <stl19:FareGuaranteedIndicator>TRUE</stl19:FareGuaranteedIndicator>
+                  <stl19:TicketingIndicator>0</stl19:TicketingIndicator>
+                  <stl19:PdcSeat>18G</stl19:PdcSeat>
+                  <stl19:FirstTravelDate>221223</stl19:FirstTravelDate>
+                  <stl19:LastTravelDate>221223</stl19:LastTravelDate>
+                  <stl19:PurchaseTimestamp>2022-10-06T10:16:00</stl19:PurchaseTimestamp>
+                  <stl19:GroupCode>SA</stl19:GroupCode>
+                  <stl19:EMDConsummedAtIssuance> </stl19:EMDConsummedAtIssuance>
+                  <stl19:TravelPortions>
+                    <stl19:TravelPortion>
+                      <stl19:AirlineCode>VN</stl19:AirlineCode>
+                      <stl19:ClassOfService>Q</stl19:ClassOfService>
+                      <stl19:DepartureDate>2022-12-23</stl19:DepartureDate>
+                      <stl19:BoardPoint>SGN</stl19:BoardPoint>
+                      <stl19:OffPoint>KUL</stl19:OffPoint>
+                    </stl19:TravelPortion>
+                  </stl19:TravelPortions>
+                  <stl19:NameAssociations>
+                    <stl19:NameID>1</stl19:NameID>
+                  </stl19:NameAssociations>
+                  <stl19:HistoryAction>XAX</stl19:HistoryAction>
+                </stl19:AncillaryServicesHistory>
+                <stl19:AncillaryServicesHistory>
+                  <stl19:CommercialName>PRE RESERVED SEAT ASSIGNMENT</stl19:CommercialName>
+                  <stl19:RficCode>AIR_TRANSPORT</stl19:RficCode>
+                  <stl19:RficSubcode>0B5</stl19:RficSubcode>
+                  <stl19:OwningCarrierCode>VN</stl19:OwningCarrierCode>
+                  <stl19:Vendor>ATP</stl19:Vendor>
+                  <stl19:EMDType>COUPON_ASSOCIATED</stl19:EMDType>
+                  <stl19:ConsumptionIndicator> </stl19:ConsumptionIndicator>
+                  <stl19:EquivalentPrice>
+                    <stl19:Price>0.00</stl19:Price>
+                    <stl19:Currency>MYR</stl19:Currency>
+                  </stl19:EquivalentPrice>
+                  <stl19:TTLPrice>
+                    <stl19:Price>0.00</stl19:Price>
+                    <stl19:Currency>MYR</stl19:Currency>
+                  </stl19:TTLPrice>
+                  <stl19:OriginalBasePrice>
+                    <stl19:Price>0.00</stl19:Price>
+                    <stl19:Currency>MYR</stl19:Currency>
+                  </stl19:OriginalBasePrice>
+                  <stl19:RefundIndicator>NOT_REFUNDABLE</stl19:RefundIndicator>
+                  <stl19:CommisionIndicator>NO</stl19:CommisionIndicator>
+                  <stl19:InterlineIndicator>NO</stl19:InterlineIndicator>
+                  <stl19:FeeApplicationIndicator>NOT_USED</stl19:FeeApplicationIndicator>
+                  <stl19:PassengerTypeCode>ADT</stl19:PassengerTypeCode>
+                  <stl19:TaxExemptIndicator>N</stl19:TaxExemptIndicator>
+                  <stl19:NumberOfItems>1</stl19:NumberOfItems>
+                  <stl19:ActionCode>HK</stl19:ActionCode>
+                  <stl19:SegmentIndicator>SEGMENT</stl19:SegmentIndicator>
+                  <stl19:RefundFormIndicator>NOT_REFUNDABLE</stl19:RefundFormIndicator>
+                  <stl19:FareGuaranteedIndicator>TRUE</stl19:FareGuaranteedIndicator>
+                  <stl19:TicketingIndicator>0</stl19:TicketingIndicator>
+                  <stl19:PdcSeat>18E</stl19:PdcSeat>
+                  <stl19:FirstTravelDate>221223</stl19:FirstTravelDate>
+                  <stl19:LastTravelDate>221223</stl19:LastTravelDate>
+                  <stl19:PurchaseTimestamp>2022-10-06T10:16:00</stl19:PurchaseTimestamp>
+                  <stl19:GroupCode>SA</stl19:GroupCode>
+                  <stl19:EMDConsummedAtIssuance> </stl19:EMDConsummedAtIssuance>
+                  <stl19:TravelPortions>
+                    <stl19:TravelPortion>
+                      <stl19:AirlineCode>VN</stl19:AirlineCode>
+                      <stl19:ClassOfService>Q</stl19:ClassOfService>
+                      <stl19:DepartureDate>2022-12-23</stl19:DepartureDate>
+                      <stl19:BoardPoint>SGN</stl19:BoardPoint>
+                      <stl19:OffPoint>KUL</stl19:OffPoint>
+                    </stl19:TravelPortion>
+                  </stl19:TravelPortions>
+                  <stl19:NameAssociations>
+                    <stl19:NameID>2</stl19:NameID>
+                  </stl19:NameAssociations>
+                  <stl19:HistoryAction>XAX</stl19:HistoryAction>
+                </stl19:AncillaryServicesHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="15">
+                  <stl19:HistoryTimestamp>2022-10-11T23:01:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN120401 4C9C7195-001 ASC</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:ItineraryHistory>
+                  <stl19:AirSegment>
+                    <stl19:DepartureAirport>SGN</stl19:DepartureAirport>
+                    <stl19:ArrivalAirport>KUL</stl19:ArrivalAirport>
+                    <stl19:EquipmentType>321</stl19:EquipmentType>
+                    <stl19:MarketingAirlineCode>VN</stl19:MarketingAirlineCode>
+                    <stl19:MarketingFlightNumber>0677</stl19:MarketingFlightNumber>
+                    <stl19:DepartureDateTime>2022-12-23T08:10:00</stl19:DepartureDateTime>
+                    <stl19:ArrivalDateTime>2022-12-23T11:20:00</stl19:ArrivalDateTime>
+                    <stl19:FlightNumber>0677</stl19:FlightNumber>
+                    <stl19:ClassOfService>Q</stl19:ClassOfService>
+                    <stl19:ActionCode>TK</stl19:ActionCode>
+                    <stl19:NumberInParty>2</stl19:NumberInParty>
+                    <stl19:HistoryAction>SC</stl19:HistoryAction>
+                  </stl19:AirSegment>
+                </stl19:ItineraryHistory>
+                <stl19:FactHistory FactType="GEN">
+                  <stl19:Type>OSI</stl19:Type>
+                  <stl19:HistoryAction>A3O</stl19:HistoryAction>
+                  <stl19:ActionId>1B</stl19:ActionId>
+                  <stl19:FreeText>*** PREV TIME FOR VN 677Q 23DEC SGNKUL  710A 1020A</stl19:FreeText>
+                  <stl19:FullText>1B *** PREV TIME FOR VN 677Q 23DEC SGNKUL  710A 1020A</stl19:FullText>
+                </stl19:FactHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="14">
+                  <stl19:HistoryTimestamp>2022-10-05T10:16:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN051516 3D717873-001 SYN</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>674</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-17T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>KUL</stl19:BoardCity>
+                  <stl19:OffCity>SGN</stl19:OffCity>
+                  <stl19:HistoryAction>A4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>21E</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>674</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-17T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>KUL</stl19:BoardCity>
+                  <stl19:OffCity>SGN</stl19:OffCity>
+                  <stl19:HistoryAction>A4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>21G</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>258</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-17T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>HAN</stl19:OffCity>
+                  <stl19:HistoryAction>A4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>19F</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>258</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-17T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>HAN</stl19:OffCity>
+                  <stl19:HistoryAction>A4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>19E</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>677</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-23T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>KUL</stl19:OffCity>
+                  <stl19:HistoryAction>A4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>18G</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+                <stl19:SeatsHistory>
+                  <stl19:FlightNumber>677</stl19:FlightNumber>
+                  <stl19:VendorCode>VN</stl19:VendorCode>
+                  <stl19:FlightDate>2022-12-23T00:00:00</stl19:FlightDate>
+                  <stl19:BoardCity>SGN</stl19:BoardCity>
+                  <stl19:OffCity>KUL</stl19:OffCity>
+                  <stl19:HistoryAction>A4G</stl19:HistoryAction>
+                  <stl19:SeatNumber>18E</stl19:SeatNumber>
+                  <stl19:SmokingPrefOfferedIndicator>false</stl19:SmokingPrefOfferedIndicator>
+                  <stl19:SeatTypeCode />
+                  <stl19:SeatStatusCode>KK</stl19:SeatStatusCode>
+                </stl19:SeatsHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="13">
+                  <stl19:HistoryTimestamp>2022-10-04T23:06:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN050406 9EC317A1-001 SYN</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:FactHistory FactType="GEN">
+                  <stl19:Type>SSR</stl19:Type>
+                  <stl19:HistoryAction>A3S</stl19:HistoryAction>
+                  <stl19:Code>TKNE</stl19:Code>
+                  <stl19:ActionId>VN</stl19:ActionId>
+                  <stl19:ActionCode>HK</stl19:ActionCode>
+                  <stl19:NumberInParty>1</stl19:NumberInParty>
+                  <stl19:TicketNumber>7382428344650C1</stl19:TicketNumber>
+                  <stl19:FreeText />
+                  <stl19:FullText>TKNE VN HK1 KULSGN0674L17DEC/7382428344650C1</stl19:FullText>
+                </stl19:FactHistory>
+                <stl19:FactHistory FactType="GEN">
+                  <stl19:Type>SSR</stl19:Type>
+                  <stl19:HistoryAction>A3S</stl19:HistoryAction>
+                  <stl19:Code>TKNE</stl19:Code>
+                  <stl19:ActionId>VN</stl19:ActionId>
+                  <stl19:ActionCode>HK</stl19:ActionCode>
+                  <stl19:NumberInParty>1</stl19:NumberInParty>
+                  <stl19:TicketNumber>7382428344650C2</stl19:TicketNumber>
+                  <stl19:FreeText />
+                  <stl19:FullText>TKNE VN HK1 SGNHAN0258L17DEC/7382428344650C2</stl19:FullText>
+                </stl19:FactHistory>
+                <stl19:FactHistory FactType="GEN">
+                  <stl19:Type>SSR</stl19:Type>
+                  <stl19:HistoryAction>A3S</stl19:HistoryAction>
+                  <stl19:Code>TKNE</stl19:Code>
+                  <stl19:ActionId>VN</stl19:ActionId>
+                  <stl19:ActionCode>HK</stl19:ActionCode>
+                  <stl19:NumberInParty>1</stl19:NumberInParty>
+                  <stl19:TicketNumber>7382428344650C3</stl19:TicketNumber>
+                  <stl19:FreeText />
+                  <stl19:FullText>TKNE VN HK1 HANSGN0221Q22DEC/7382428344650C3</stl19:FullText>
+                </stl19:FactHistory>
+                <stl19:FactHistory FactType="GEN">
+                  <stl19:Type>SSR</stl19:Type>
+                  <stl19:HistoryAction>A3S</stl19:HistoryAction>
+                  <stl19:Code>TKNE</stl19:Code>
+                  <stl19:ActionId>VN</stl19:ActionId>
+                  <stl19:ActionCode>HK</stl19:ActionCode>
+                  <stl19:NumberInParty>1</stl19:NumberInParty>
+                  <stl19:TicketNumber>7382428344650C4</stl19:TicketNumber>
+                  <stl19:FreeText />
+                  <stl19:FullText>TKNE VN HK1 SGNKUL0677Q23DEC/7382428344650C4</stl19:FullText>
+                </stl19:FactHistory>
+                <stl19:FactHistory FactType="GEN">
+                  <stl19:Type>SSR</stl19:Type>
+                  <stl19:HistoryAction>A3S</stl19:HistoryAction>
+                  <stl19:Code>TKNE</stl19:Code>
+                  <stl19:ActionId>VN</stl19:ActionId>
+                  <stl19:ActionCode>HK</stl19:ActionCode>
+                  <stl19:NumberInParty>1</stl19:NumberInParty>
+                  <stl19:TicketNumber>7382428344651C1</stl19:TicketNumber>
+                  <stl19:FreeText />
+                  <stl19:FullText>TKNE VN HK1 KULSGN0674L17DEC/7382428344651C1</stl19:FullText>
+                </stl19:FactHistory>
+                <stl19:FactHistory FactType="GEN">
+                  <stl19:Type>SSR</stl19:Type>
+                  <stl19:HistoryAction>A3S</stl19:HistoryAction>
+                  <stl19:Code>TKNE</stl19:Code>
+                  <stl19:ActionId>VN</stl19:ActionId>
+                  <stl19:ActionCode>HK</stl19:ActionCode>
+                  <stl19:NumberInParty>1</stl19:NumberInParty>
+                  <stl19:TicketNumber>7382428344651C2</stl19:TicketNumber>
+                  <stl19:FreeText />
+                  <stl19:FullText>TKNE VN HK1 SGNHAN0258L17DEC/7382428344651C2</stl19:FullText>
+                </stl19:FactHistory>
+                <stl19:FactHistory FactType="GEN">
+                  <stl19:Type>SSR</stl19:Type>
+                  <stl19:HistoryAction>A3S</stl19:HistoryAction>
+                  <stl19:Code>TKNE</stl19:Code>
+                  <stl19:ActionId>VN</stl19:ActionId>
+                  <stl19:ActionCode>HK</stl19:ActionCode>
+                  <stl19:NumberInParty>1</stl19:NumberInParty>
+                  <stl19:TicketNumber>7382428344651C3</stl19:TicketNumber>
+                  <stl19:FreeText />
+                  <stl19:FullText>TKNE VN HK1 HANSGN0221Q22DEC/7382428344651C3</stl19:FullText>
+                </stl19:FactHistory>
+                <stl19:FactHistory FactType="GEN">
+                  <stl19:Type>SSR</stl19:Type>
+                  <stl19:HistoryAction>A3S</stl19:HistoryAction>
+                  <stl19:Code>TKNE</stl19:Code>
+                  <stl19:ActionId>VN</stl19:ActionId>
+                  <stl19:ActionCode>HK</stl19:ActionCode>
+                  <stl19:NumberInParty>1</stl19:NumberInParty>
+                  <stl19:TicketNumber>7382428344651C4</stl19:TicketNumber>
+                  <stl19:FreeText />
+                  <stl19:FullText>TKNE VN HK1 SGNKUL0677Q23DEC/7382428344651C4</stl19:FullText>
+                </stl19:FactHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="12">
+                  <stl19:HistoryTimestamp>2022-10-04T22:07:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN050307 9E721F92-001 SYN</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:ItineraryHistory>
+                  <stl19:AirSegment>
+                    <stl19:DepartureAirport>HAN</stl19:DepartureAirport>
+                    <stl19:ArrivalAirport>SGN</stl19:ArrivalAirport>
+                    <stl19:EquipmentType>321</stl19:EquipmentType>
+                    <stl19:MarketingAirlineCode>VN</stl19:MarketingAirlineCode>
+                    <stl19:MarketingFlightNumber>0207</stl19:MarketingFlightNumber>
+                    <stl19:DepartureDateTime>2022-12-22T07:00:00</stl19:DepartureDateTime>
+                    <stl19:ArrivalDateTime>2022-12-22T09:15:00</stl19:ArrivalDateTime>
+                    <stl19:FlightNumber>0207</stl19:FlightNumber>
+                    <stl19:ClassOfService>Q</stl19:ClassOfService>
+                    <stl19:ActionCode>HX</stl19:ActionCode>
+                    <stl19:NumberInParty>2</stl19:NumberInParty>
+                    <stl19:HistoryAction>SC</stl19:HistoryAction>
+                  </stl19:AirSegment>
+                </stl19:ItineraryHistory>
+                <stl19:ItineraryHistory>
+                  <stl19:AirSegment>
+                    <stl19:DepartureAirport>SGN</stl19:DepartureAirport>
+                    <stl19:ArrivalAirport>KUL</stl19:ArrivalAirport>
+                    <stl19:EquipmentType>321</stl19:EquipmentType>
+                    <stl19:MarketingAirlineCode>VN</stl19:MarketingAirlineCode>
+                    <stl19:MarketingFlightNumber>0675</stl19:MarketingFlightNumber>
+                    <stl19:DepartureDateTime>2022-12-22T11:35:00</stl19:DepartureDateTime>
+                    <stl19:ArrivalDateTime>2022-12-22T14:45:00</stl19:ArrivalDateTime>
+                    <stl19:FlightNumber>0675</stl19:FlightNumber>
+                    <stl19:ClassOfService>Q</stl19:ClassOfService>
+                    <stl19:ActionCode>HX</stl19:ActionCode>
+                    <stl19:NumberInParty>2</stl19:NumberInParty>
+                    <stl19:HistoryAction>SC</stl19:HistoryAction>
+                  </stl19:AirSegment>
+                </stl19:ItineraryHistory>
+                <stl19:FactHistory FactType="GEN">
+                  <stl19:Type>SSR</stl19:Type>
+                  <stl19:HistoryAction>A3S</stl19:HistoryAction>
+                  <stl19:Code>OTHS</stl19:Code>
+                  <stl19:ActionId>1B</stl19:ActionId>
+                  <stl19:FreeText>HX CANCELED DUE TO SYSTEM OR PASSENGER ACTION</stl19:FreeText>
+                  <stl19:FullText>OTHS 1B HX CANCELED DUE TO SYSTEM OR PASSENGER ACTION</stl19:FullText>
+                </stl19:FactHistory>
+                <stl19:FactHistory FactType="GEN">
+                  <stl19:Type>SSR</stl19:Type>
+                  <stl19:HistoryAction>A3S</stl19:HistoryAction>
+                  <stl19:Code>OTHS</stl19:Code>
+                  <stl19:ActionId>1B</stl19:ActionId>
+                  <stl19:FreeText>HX DELETE HX SEGS FROM PNR TO KEEP RES IN SYNCH</stl19:FreeText>
+                  <stl19:FullText>OTHS 1B HX DELETE HX SEGS FROM PNR TO KEEP RES IN SYNCH</stl19:FullText>
+                </stl19:FactHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="11">
+                  <stl19:HistoryTimestamp>2022-10-04T21:52:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN050252 9E5D4F00-001 SYN</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:FactHistory FactType="GEN">
+                  <stl19:Type>SSR</stl19:Type>
+                  <stl19:HistoryAction>A3S</stl19:HistoryAction>
+                  <stl19:Code>OTHS</stl19:Code>
+                  <stl19:ActionId>1B</stl19:ActionId>
+                  <stl19:FreeText>ADV TKT BY 10OCT22 1045HKGHK OR WL BE CXLD</stl19:FreeText>
+                  <stl19:FullText>OTHS 1B ADV TKT BY 10OCT22 1045HKGHK OR WL BE CXLD</stl19:FullText>
+                </stl19:FactHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="10">
+                  <stl19:HistoryTimestamp>2022-10-04T21:52:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN050252 9E55FA33-001 SYN</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:FactHistory FactType="GEN">
+                  <stl19:Type>SSR</stl19:Type>
+                  <stl19:HistoryAction>A3S</stl19:HistoryAction>
+                  <stl19:Code>OTHS</stl19:Code>
+                  <stl19:ActionId>1B</stl19:ActionId>
+                  <stl19:FreeText>CHECK REDUNDANT SEGMENT OR WL BE CXLD BY 05OCT1652HKGHK</stl19:FreeText>
+                  <stl19:FullText>OTHS 1B CHECK REDUNDANT SEGMENT OR WL BE CXLD BY 05OCT1652HKGHK</stl19:FullText>
+                </stl19:FactHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="9">
+                  <stl19:HistoryTimestamp>2022-10-04T21:45:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN050245 9E542323-001 SYN</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:ItineraryHistory>
+                  <stl19:AirSegment>
+                    <stl19:DepartureAirport>HAN</stl19:DepartureAirport>
+                    <stl19:ArrivalAirport>SGN</stl19:ArrivalAirport>
+                    <stl19:EquipmentType>787</stl19:EquipmentType>
+                    <stl19:MarketingAirlineCode>VN</stl19:MarketingAirlineCode>
+                    <stl19:MarketingFlightNumber>0221</stl19:MarketingFlightNumber>
+                    <stl19:DepartureDateTime>2022-12-22T21:00:00</stl19:DepartureDateTime>
+                    <stl19:ArrivalDateTime>2022-12-22T23:15:00</stl19:ArrivalDateTime>
+                    <stl19:FlightNumber>0221</stl19:FlightNumber>
+                    <stl19:ClassOfService>Q</stl19:ClassOfService>
+                    <stl19:ActionCode>HK</stl19:ActionCode>
+                    <stl19:NumberInParty>2</stl19:NumberInParty>
+                    <stl19:HistoryAction>AS</stl19:HistoryAction>
+                  </stl19:AirSegment>
+                </stl19:ItineraryHistory>
+                <stl19:ItineraryHistory>
+                  <stl19:AirSegment>
+                    <stl19:DepartureAirport>SGN</stl19:DepartureAirport>
+                    <stl19:ArrivalAirport>KUL</stl19:ArrivalAirport>
+                    <stl19:EquipmentType>321</stl19:EquipmentType>
+                    <stl19:MarketingAirlineCode>VN</stl19:MarketingAirlineCode>
+                    <stl19:MarketingFlightNumber>0677</stl19:MarketingFlightNumber>
+                    <stl19:DepartureDateTime>2022-12-23T07:10:00</stl19:DepartureDateTime>
+                    <stl19:ArrivalDateTime>2022-12-23T10:20:00</stl19:ArrivalDateTime>
+                    <stl19:FlightNumber>0677</stl19:FlightNumber>
+                    <stl19:ClassOfService>Q</stl19:ClassOfService>
+                    <stl19:ActionCode>HK</stl19:ActionCode>
+                    <stl19:NumberInParty>2</stl19:NumberInParty>
+                    <stl19:HistoryAction>AS</stl19:HistoryAction>
+                  </stl19:AirSegment>
+                </stl19:ItineraryHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="8">
+                  <stl19:HistoryTimestamp>2022-10-04T01:47:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN040647 94DDE609-001 ASC</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:ItineraryHistory>
+                  <stl19:AirSegment>
+                    <stl19:DepartureAirport>SGN</stl19:DepartureAirport>
+                    <stl19:ArrivalAirport>KUL</stl19:ArrivalAirport>
+                    <stl19:EquipmentType>321</stl19:EquipmentType>
+                    <stl19:MarketingAirlineCode>VN</stl19:MarketingAirlineCode>
+                    <stl19:MarketingFlightNumber>0675</stl19:MarketingFlightNumber>
+                    <stl19:DepartureDateTime>2022-12-22T11:35:00</stl19:DepartureDateTime>
+                    <stl19:ArrivalDateTime>2022-12-22T14:45:00</stl19:ArrivalDateTime>
+                    <stl19:FlightNumber>0675</stl19:FlightNumber>
+                    <stl19:ClassOfService>Q</stl19:ClassOfService>
+                    <stl19:ActionCode>TK</stl19:ActionCode>
+                    <stl19:NumberInParty>2</stl19:NumberInParty>
+                    <stl19:HistoryAction>SC</stl19:HistoryAction>
+                  </stl19:AirSegment>
+                </stl19:ItineraryHistory>
+                <stl19:FactHistory FactType="GEN">
+                  <stl19:Type>OSI</stl19:Type>
+                  <stl19:HistoryAction>A3O</stl19:HistoryAction>
+                  <stl19:ActionId>1B</stl19:ActionId>
+                  <stl19:FreeText>*** PREV TIME FOR VN 675Q 22DEC SGNKUL 1145A  255P</stl19:FreeText>
+                  <stl19:FullText>1B *** PREV TIME FOR VN 675Q 22DEC SGNKUL 1145A  255P</stl19:FullText>
+                </stl19:FactHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="7">
+                  <stl19:HistoryTimestamp>2022-10-03T20:58:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN040158 9152F5F6-001 ASC</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:ItineraryHistory>
+                  <stl19:AirSegment>
+                    <stl19:DepartureAirport>KUL</stl19:DepartureAirport>
+                    <stl19:ArrivalAirport>SGN</stl19:ArrivalAirport>
+                    <stl19:EquipmentType>321</stl19:EquipmentType>
+                    <stl19:MarketingAirlineCode>VN</stl19:MarketingAirlineCode>
+                    <stl19:MarketingFlightNumber>0674</stl19:MarketingFlightNumber>
+                    <stl19:DepartureDateTime>2022-12-17T15:45:00</stl19:DepartureDateTime>
+                    <stl19:ArrivalDateTime>2022-12-17T17:00:00</stl19:ArrivalDateTime>
+                    <stl19:FlightNumber>0674</stl19:FlightNumber>
+                    <stl19:ClassOfService>L</stl19:ClassOfService>
+                    <stl19:ActionCode>TK</stl19:ActionCode>
+                    <stl19:NumberInParty>2</stl19:NumberInParty>
+                    <stl19:HistoryAction>SC</stl19:HistoryAction>
+                  </stl19:AirSegment>
+                </stl19:ItineraryHistory>
+                <stl19:FactHistory FactType="GEN">
+                  <stl19:Type>OSI</stl19:Type>
+                  <stl19:HistoryAction>A3O</stl19:HistoryAction>
+                  <stl19:ActionId>1B</stl19:ActionId>
+                  <stl19:FreeText>*** PREV TIME FOR VN 674L 17DEC KULSGN  355P  455P</stl19:FreeText>
+                  <stl19:FullText>1B *** PREV TIME FOR VN 674L 17DEC KULSGN  355P  455P</stl19:FullText>
+                </stl19:FactHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="6">
+                  <stl19:HistoryTimestamp>2022-08-30T03:07:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN300807 8163FDA3-001 ASC</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:ItineraryHistory>
+                  <stl19:AirSegment>
+                    <stl19:DepartureAirport>KUL</stl19:DepartureAirport>
+                    <stl19:ArrivalAirport>HAN</stl19:ArrivalAirport>
+                    <stl19:EquipmentType>321</stl19:EquipmentType>
+                    <stl19:MarketingAirlineCode>VN</stl19:MarketingAirlineCode>
+                    <stl19:MarketingFlightNumber>0680</stl19:MarketingFlightNumber>
+                    <stl19:DepartureDateTime>2022-12-17T17:20:00</stl19:DepartureDateTime>
+                    <stl19:ArrivalDateTime>2022-12-17T19:35:00</stl19:ArrivalDateTime>
+                    <stl19:FlightNumber>0680</stl19:FlightNumber>
+                    <stl19:ClassOfService>L</stl19:ClassOfService>
+                    <stl19:ActionCode>UN</stl19:ActionCode>
+                    <stl19:NumberInParty>2</stl19:NumberInParty>
+                    <stl19:HistoryAction>SC</stl19:HistoryAction>
+                  </stl19:AirSegment>
+                </stl19:ItineraryHistory>
+                <stl19:ItineraryHistory>
+                  <stl19:AirSegment>
+                    <stl19:DepartureAirport>KUL</stl19:DepartureAirport>
+                    <stl19:ArrivalAirport>SGN</stl19:ArrivalAirport>
+                    <stl19:EquipmentType>321</stl19:EquipmentType>
+                    <stl19:MarketingAirlineCode>VN</stl19:MarketingAirlineCode>
+                    <stl19:MarketingFlightNumber>0674</stl19:MarketingFlightNumber>
+                    <stl19:DepartureDateTime>2022-12-17T15:55:00</stl19:DepartureDateTime>
+                    <stl19:ArrivalDateTime>2022-12-17T16:55:00</stl19:ArrivalDateTime>
+                    <stl19:FlightNumber>0674</stl19:FlightNumber>
+                    <stl19:ClassOfService>L</stl19:ClassOfService>
+                    <stl19:ActionCode>TK</stl19:ActionCode>
+                    <stl19:NumberInParty>2</stl19:NumberInParty>
+                    <stl19:HistoryAction>AS</stl19:HistoryAction>
+                  </stl19:AirSegment>
+                </stl19:ItineraryHistory>
+                <stl19:ItineraryHistory>
+                  <stl19:AirSegment>
+                    <stl19:DepartureAirport>SGN</stl19:DepartureAirport>
+                    <stl19:ArrivalAirport>HAN</stl19:ArrivalAirport>
+                    <stl19:EquipmentType>321</stl19:EquipmentType>
+                    <stl19:MarketingAirlineCode>VN</stl19:MarketingAirlineCode>
+                    <stl19:MarketingFlightNumber>0258</stl19:MarketingFlightNumber>
+                    <stl19:DepartureDateTime>2022-12-17T19:00:00</stl19:DepartureDateTime>
+                    <stl19:ArrivalDateTime>2022-12-17T21:15:00</stl19:ArrivalDateTime>
+                    <stl19:FlightNumber>0258</stl19:FlightNumber>
+                    <stl19:ClassOfService>L</stl19:ClassOfService>
+                    <stl19:ActionCode>TK</stl19:ActionCode>
+                    <stl19:NumberInParty>2</stl19:NumberInParty>
+                    <stl19:HistoryAction>AS</stl19:HistoryAction>
+                  </stl19:AirSegment>
+                </stl19:ItineraryHistory>
+                <stl19:ItineraryHistory>
+                  <stl19:AirSegment>
+                    <stl19:DepartureAirport>HAN</stl19:DepartureAirport>
+                    <stl19:ArrivalAirport>KUL</stl19:ArrivalAirport>
+                    <stl19:EquipmentType>321</stl19:EquipmentType>
+                    <stl19:MarketingAirlineCode>VN</stl19:MarketingAirlineCode>
+                    <stl19:MarketingFlightNumber>0681</stl19:MarketingFlightNumber>
+                    <stl19:DepartureDateTime>2022-12-22T11:55:00</stl19:DepartureDateTime>
+                    <stl19:ArrivalDateTime>2022-12-22T16:20:00</stl19:ArrivalDateTime>
+                    <stl19:FlightNumber>0681</stl19:FlightNumber>
+                    <stl19:ClassOfService>Q</stl19:ClassOfService>
+                    <stl19:ActionCode>UN</stl19:ActionCode>
+                    <stl19:NumberInParty>2</stl19:NumberInParty>
+                    <stl19:HistoryAction>SC</stl19:HistoryAction>
+                  </stl19:AirSegment>
+                </stl19:ItineraryHistory>
+                <stl19:ItineraryHistory>
+                  <stl19:AirSegment>
+                    <stl19:DepartureAirport>HAN</stl19:DepartureAirport>
+                    <stl19:ArrivalAirport>SGN</stl19:ArrivalAirport>
+                    <stl19:EquipmentType>321</stl19:EquipmentType>
+                    <stl19:MarketingAirlineCode>VN</stl19:MarketingAirlineCode>
+                    <stl19:MarketingFlightNumber>0207</stl19:MarketingFlightNumber>
+                    <stl19:DepartureDateTime>2022-12-22T07:00:00</stl19:DepartureDateTime>
+                    <stl19:ArrivalDateTime>2022-12-22T09:15:00</stl19:ArrivalDateTime>
+                    <stl19:FlightNumber>0207</stl19:FlightNumber>
+                    <stl19:ClassOfService>Q</stl19:ClassOfService>
+                    <stl19:ActionCode>TK</stl19:ActionCode>
+                    <stl19:NumberInParty>2</stl19:NumberInParty>
+                    <stl19:HistoryAction>AS</stl19:HistoryAction>
+                  </stl19:AirSegment>
+                </stl19:ItineraryHistory>
+                <stl19:ItineraryHistory>
+                  <stl19:AirSegment>
+                    <stl19:DepartureAirport>SGN</stl19:DepartureAirport>
+                    <stl19:ArrivalAirport>KUL</stl19:ArrivalAirport>
+                    <stl19:EquipmentType>321</stl19:EquipmentType>
+                    <stl19:MarketingAirlineCode>VN</stl19:MarketingAirlineCode>
+                    <stl19:MarketingFlightNumber>0675</stl19:MarketingFlightNumber>
+                    <stl19:DepartureDateTime>2022-12-22T11:45:00</stl19:DepartureDateTime>
+                    <stl19:ArrivalDateTime>2022-12-22T14:55:00</stl19:ArrivalDateTime>
+                    <stl19:FlightNumber>0675</stl19:FlightNumber>
+                    <stl19:ClassOfService>Q</stl19:ClassOfService>
+                    <stl19:ActionCode>TK</stl19:ActionCode>
+                    <stl19:NumberInParty>2</stl19:NumberInParty>
+                    <stl19:HistoryAction>AS</stl19:HistoryAction>
+                  </stl19:AirSegment>
+                </stl19:ItineraryHistory>
+                <stl19:FactHistory FactType="GEN">
+                  <stl19:Type>SSR</stl19:Type>
+                  <stl19:HistoryAction>X3S</stl19:HistoryAction>
+                  <stl19:Code>TKNE</stl19:Code>
+                  <stl19:ActionId>VN</stl19:ActionId>
+                  <stl19:ActionCode>HK</stl19:ActionCode>
+                  <stl19:NumberInParty>1</stl19:NumberInParty>
+                  <stl19:TicketNumber>7386744503729C1</stl19:TicketNumber>
+                  <stl19:FreeText />
+                  <stl19:FullText>TKNE VN HK1 KULHAN0680L17DEC/7386744503729C1</stl19:FullText>
+                </stl19:FactHistory>
+                <stl19:FactHistory FactType="GEN">
+                  <stl19:Type>SSR</stl19:Type>
+                  <stl19:HistoryAction>X3S</stl19:HistoryAction>
+                  <stl19:Code>TKNE</stl19:Code>
+                  <stl19:ActionId>VN</stl19:ActionId>
+                  <stl19:ActionCode>HK</stl19:ActionCode>
+                  <stl19:NumberInParty>1</stl19:NumberInParty>
+                  <stl19:TicketNumber>7386744503730C1</stl19:TicketNumber>
+                  <stl19:FreeText />
+                  <stl19:FullText>TKNE VN HK1 KULHAN0680L17DEC/7386744503730C1</stl19:FullText>
+                </stl19:FactHistory>
+                <stl19:FactHistory FactType="GEN">
+                  <stl19:Type>SSR</stl19:Type>
+                  <stl19:HistoryAction>X3S</stl19:HistoryAction>
+                  <stl19:Code>TKNE</stl19:Code>
+                  <stl19:ActionId>VN</stl19:ActionId>
+                  <stl19:ActionCode>HK</stl19:ActionCode>
+                  <stl19:NumberInParty>1</stl19:NumberInParty>
+                  <stl19:TicketNumber>7386744503729C2</stl19:TicketNumber>
+                  <stl19:FreeText />
+                  <stl19:FullText>TKNE VN HK1 HANKUL0681Q22DEC/7386744503729C2</stl19:FullText>
+                </stl19:FactHistory>
+                <stl19:FactHistory FactType="GEN">
+                  <stl19:Type>SSR</stl19:Type>
+                  <stl19:HistoryAction>X3S</stl19:HistoryAction>
+                  <stl19:Code>TKNE</stl19:Code>
+                  <stl19:ActionId>VN</stl19:ActionId>
+                  <stl19:ActionCode>HK</stl19:ActionCode>
+                  <stl19:NumberInParty>1</stl19:NumberInParty>
+                  <stl19:TicketNumber>7386744503730C2</stl19:TicketNumber>
+                  <stl19:FreeText />
+                  <stl19:FullText>TKNE VN HK1 HANKUL0681Q22DEC/7386744503730C2</stl19:FullText>
+                </stl19:FactHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="5">
+                  <stl19:HistoryTimestamp>2022-08-23T05:18:00</stl19:HistoryTimestamp>
+                  <stl19:DutyCode>*</stl19:DutyCode>
+                  <stl19:AgentSine>AXZ</stl19:AgentSine>
+                  <stl19:HomePCC>OE7K</stl19:HomePCC>
+                  <stl19:AgencyPCC>OE7K</stl19:AgencyPCC>
+                  <stl19:HistoryFrom />
+                </stl19:Signature>
+                <stl19:RemarkHistory>
+                  <stl19:HistoryAction>A5H</stl19:HistoryAction>
+                  <stl19:RemarkType>8</stl19:RemarkType>
+                  <stl19:RemarkActionCode>H-</stl19:RemarkActionCode>
+                  <stl19:RemarkText>AUTH-UATP/TP8043/23AUG/01721661249883020178       </stl19:RemarkText>
+                </stl19:RemarkHistory>
+                <stl19:RemarkHistory>
+                  <stl19:HistoryAction>A5H</stl19:HistoryAction>
+                  <stl19:RemarkType>8</stl19:RemarkType>
+                  <stl19:RemarkActionCode>H-</stl19:RemarkActionCode>
+                  <stl19:RemarkText>  AUTH-APV/543220/0/HKD2874                       </stl19:RemarkText>
+                </stl19:RemarkHistory>
+                <stl19:FactHistory FactType="GEN">
+                  <stl19:Type>SSR</stl19:Type>
+                  <stl19:HistoryAction>A3S</stl19:HistoryAction>
+                  <stl19:Code>TKNE</stl19:Code>
+                  <stl19:ActionId>VN</stl19:ActionId>
+                  <stl19:ActionCode>HK</stl19:ActionCode>
+                  <stl19:NumberInParty>1</stl19:NumberInParty>
+                  <stl19:TicketNumber>7386744503729C1</stl19:TicketNumber>
+                  <stl19:FreeText />
+                  <stl19:FullText>TKNE VN HK1 KULHAN0680L17DEC/7386744503729C1</stl19:FullText>
+                </stl19:FactHistory>
+                <stl19:FactHistory FactType="GEN">
+                  <stl19:Type>SSR</stl19:Type>
+                  <stl19:HistoryAction>A3S</stl19:HistoryAction>
+                  <stl19:Code>TKNE</stl19:Code>
+                  <stl19:ActionId>VN</stl19:ActionId>
+                  <stl19:ActionCode>HK</stl19:ActionCode>
+                  <stl19:NumberInParty>1</stl19:NumberInParty>
+                  <stl19:TicketNumber>7386744503729C2</stl19:TicketNumber>
+                  <stl19:FreeText />
+                  <stl19:FullText>TKNE VN HK1 HANKUL0681Q22DEC/7386744503729C2</stl19:FullText>
+                </stl19:FactHistory>
+                <stl19:FactHistory FactType="GEN">
+                  <stl19:Type>SSR</stl19:Type>
+                  <stl19:HistoryAction>A3S</stl19:HistoryAction>
+                  <stl19:Code>TKNE</stl19:Code>
+                  <stl19:ActionId>VN</stl19:ActionId>
+                  <stl19:ActionCode>HK</stl19:ActionCode>
+                  <stl19:NumberInParty>1</stl19:NumberInParty>
+                  <stl19:TicketNumber>7386744503730C1</stl19:TicketNumber>
+                  <stl19:FreeText />
+                  <stl19:FullText>TKNE VN HK1 KULHAN0680L17DEC/7386744503730C1</stl19:FullText>
+                </stl19:FactHistory>
+                <stl19:FactHistory FactType="GEN">
+                  <stl19:Type>SSR</stl19:Type>
+                  <stl19:HistoryAction>A3S</stl19:HistoryAction>
+                  <stl19:Code>TKNE</stl19:Code>
+                  <stl19:ActionId>VN</stl19:ActionId>
+                  <stl19:ActionCode>HK</stl19:ActionCode>
+                  <stl19:NumberInParty>1</stl19:NumberInParty>
+                  <stl19:TicketNumber>7386744503730C2</stl19:TicketNumber>
+                  <stl19:FreeText />
+                  <stl19:FullText>TKNE VN HK1 HANKUL0681Q22DEC/7386744503730C2</stl19:FullText>
+                </stl19:FactHistory>
+                <stl19:TicketingHistory>
+                  <stl19:OriginalTicketDetails>TAW/</stl19:OriginalTicketDetails>
+                  <stl19:TransactionIndicator>TAW</stl19:TransactionIndicator>
+                  <stl19:AgencyLocation />
+                  <stl19:HistoryAction>X7</stl19:HistoryAction>
+                </stl19:TicketingHistory>
+                <stl19:TicketingHistory>
+                  <stl19:OriginalTicketDetails>T-23AUG-OE7K*AXZ</stl19:OriginalTicketDetails>
+                  <stl19:TransactionIndicator>T</stl19:TransactionIndicator>
+                  <stl19:AgencyLocation />
+                  <stl19:HistoryAction>A7</stl19:HistoryAction>
+                </stl19:TicketingHistory>
+                <stl19:TicketingHistory>
+                  <stl19:TktEntry>W$PQ1$AVN$F*TP161149XXXXX8043/0922$ER /FCPI 4 FARE SOURCE ATPC </stl19:TktEntry>
+                  <stl19:HistoryAction>AT</stl19:HistoryAction>
+                </stl19:TicketingHistory>
+                <stl19:AccountingLineHistory>
+                  <stl19:HistoryAction>AAC</stl19:HistoryAction>
+                  <stl19:AccountingLine>  VN$6744503729/      0/        910/    527/ONE/CCTP161149XXXXX8043 1.1LAU CHUI YIEN MS/1/F/E</stl19:AccountingLine>
+                </stl19:AccountingLineHistory>
+                <stl19:AccountingLineHistory>
+                  <stl19:HistoryAction>AAC</stl19:HistoryAction>
+                  <stl19:AccountingLine>  VN$6744503730/      0/        910/    527/ONE/CCTP161149XXXXX8043 2.1CHIONG TZE LING MS/1/F/E</stl19:AccountingLine>
+                </stl19:AccountingLineHistory>
+                <stl19:CommentHistory>
+                  <stl19:HistoryAction>IN</stl19:HistoryAction>
+                  <stl19:CommentText>VOICE</stl19:CommentText>
+                </stl19:CommentHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="4">
+                  <stl19:HistoryTimestamp>2022-08-23T05:17:00</stl19:HistoryTimestamp>
+                  <stl19:DutyCode>*</stl19:DutyCode>
+                  <stl19:AgentSine>AXZ</stl19:AgentSine>
+                  <stl19:HomePCC>OE7K</stl19:HomePCC>
+                  <stl19:AgencyPCC>OE7K</stl19:AgencyPCC>
+                  <stl19:HistoryFrom />
+                </stl19:Signature>
+                <stl19:FactHistory FactType="GEN">
+                  <stl19:Type>OSI</stl19:Type>
+                  <stl19:HistoryAction>A3O</stl19:HistoryAction>
+                  <stl19:ActionId>1B</stl19:ActionId>
+                  <stl19:FreeText>PLEASE TICKET FARE AS PER TKT/TL IN PQ</stl19:FreeText>
+                  <stl19:FullText>1B PLEASE TICKET FARE AS PER TKT/TL IN PQ</stl19:FullText>
+                </stl19:FactHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="3">
+                  <stl19:HistoryTimestamp>2022-08-23T05:14:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN231014 4D4C36F1-001 SYN</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:FactHistory FactType="GEN">
+                  <stl19:Type>SSR</stl19:Type>
+                  <stl19:HistoryAction>A3S</stl19:HistoryAction>
+                  <stl19:Code>OTHS</stl19:Code>
+                  <stl19:ActionId>1B</stl19:ActionId>
+                  <stl19:FreeText>CHK POSSIBLE DUP WITH KZCGRI OR WL BE XCLD</stl19:FreeText>
+                  <stl19:FullText>OTHS 1B CHK POSSIBLE DUP WITH KZCGRI OR WL BE XCLD</stl19:FullText>
+                </stl19:FactHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="2">
+                  <stl19:HistoryTimestamp>2022-08-23T05:11:00</stl19:HistoryTimestamp>
+                  <stl19:HomePCC>PLT</stl19:HomePCC>
+                  <stl19:AgencyPCC>PLT</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>HDQRMVN231011 4D42D18D-001 SYN</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:FactHistory FactType="GEN">
+                  <stl19:Type>SSR</stl19:Type>
+                  <stl19:HistoryAction>A3S</stl19:HistoryAction>
+                  <stl19:Code>OTHS</stl19:Code>
+                  <stl19:ActionId>1B</stl19:ActionId>
+                  <stl19:FreeText>ADV TKT BY 28AUG22 1807HKGHK OR WL BE CXLD</stl19:FreeText>
+                  <stl19:FullText>OTHS 1B ADV TKT BY 28AUG22 1807HKGHK OR WL BE CXLD</stl19:FullText>
+                </stl19:FactHistory>
+              </stl19:HistoryTransaction>
+              <stl19:HistoryTransaction>
+                <stl19:Signature SequenceNbr="1">
+                  <stl19:HistoryTimestamp>2022-08-23T05:07:00</stl19:HistoryTimestamp>
+                  <stl19:DutyCode>*</stl19:DutyCode>
+                  <stl19:AgentSine>AKW</stl19:AgentSine>
+                  <stl19:HomePCC>09XI</stl19:HomePCC>
+                  <stl19:AgencyPCC>09XI</stl19:AgencyPCC>
+                  <stl19:HistoryFrom>K</stl19:HistoryFrom>
+                </stl19:Signature>
+                <stl19:ItineraryHistory>
+                  <stl19:AirSegment>
+                    <stl19:DepartureAirport>KUL</stl19:DepartureAirport>
+                    <stl19:ArrivalAirport>HAN</stl19:ArrivalAirport>
+                    <stl19:EquipmentType>321</stl19:EquipmentType>
+                    <stl19:MarketingAirlineCode>VN</stl19:MarketingAirlineCode>
+                    <stl19:MarketingFlightNumber>0680</stl19:MarketingFlightNumber>
+                    <stl19:DepartureDateTime>2022-12-17T17:20:00</stl19:DepartureDateTime>
+                    <stl19:ArrivalDateTime>2022-12-17T19:35:00</stl19:ArrivalDateTime>
+                    <stl19:FlightNumber>0680</stl19:FlightNumber>
+                    <stl19:ClassOfService>L</stl19:ClassOfService>
+                    <stl19:ActionCode>SS</stl19:ActionCode>
+                    <stl19:NumberInParty>2</stl19:NumberInParty>
+                    <stl19:HistoryAction>AS</stl19:HistoryAction>
+                  </stl19:AirSegment>
+                </stl19:ItineraryHistory>
+                <stl19:ItineraryHistory>
+                  <stl19:AirSegment>
+                    <stl19:DepartureAirport>HAN</stl19:DepartureAirport>
+                    <stl19:ArrivalAirport>KUL</stl19:ArrivalAirport>
+                    <stl19:EquipmentType>321</stl19:EquipmentType>
+                    <stl19:MarketingAirlineCode>VN</stl19:MarketingAirlineCode>
+                    <stl19:MarketingFlightNumber>0681</stl19:MarketingFlightNumber>
+                    <stl19:DepartureDateTime>2022-12-22T11:55:00</stl19:DepartureDateTime>
+                    <stl19:ArrivalDateTime>2022-12-22T16:20:00</stl19:ArrivalDateTime>
+                    <stl19:FlightNumber>0681</stl19:FlightNumber>
+                    <stl19:ClassOfService>Q</stl19:ClassOfService>
+                    <stl19:ActionCode>SS</stl19:ActionCode>
+                    <stl19:NumberInParty>2</stl19:NumberInParty>
+                    <stl19:HistoryAction>AS</stl19:HistoryAction>
+                  </stl19:AirSegment>
+                </stl19:ItineraryHistory>
+                <stl19:FactHistory FactType="GEN">
+                  <stl19:Type>SSR</stl19:Type>
+                  <stl19:HistoryAction>A3S</stl19:HistoryAction>
+                  <stl19:Code>CTCM</stl19:Code>
+                  <stl19:ActionId>VN</stl19:ActionId>
+                  <stl19:ActionCode>HK</stl19:ActionCode>
+                  <stl19:NumberInParty>1</stl19:NumberInParty>
+                  <stl19:FreeText>/13564188010</stl19:FreeText>
+                  <stl19:FullText>CTCM VN HK1/13564188010</stl19:FullText>
+                </stl19:FactHistory>
+                <stl19:FactHistory FactType="GEN">
+                  <stl19:Type>SSR</stl19:Type>
+                  <stl19:HistoryAction>A3S</stl19:HistoryAction>
+                  <stl19:Code>DOCS</stl19:Code>
+                  <stl19:ActionId>VN</stl19:ActionId>
+                  <stl19:ActionCode>HK</stl19:ActionCode>
+                  <stl19:NumberInParty>1</stl19:NumberInParty>
+                  <stl19:FreeText />
+                  <stl19:FullText>DOCS VN HK1/P/MY/K50190918/MY/09DEC71/F/15AUG23/LAU/CHUI YIEN</stl19:FullText>
+                </stl19:FactHistory>
+                <stl19:FactHistory FactType="GEN">
+                  <stl19:Type>SSR</stl19:Type>
+                  <stl19:HistoryAction>A3S</stl19:HistoryAction>
+                  <stl19:Code>DOCS</stl19:Code>
+                  <stl19:ActionId>VN</stl19:ActionId>
+                  <stl19:ActionCode>HK</stl19:ActionCode>
+                  <stl19:NumberInParty>1</stl19:NumberInParty>
+                  <stl19:FreeText />
+                  <stl19:FullText>DOCS VN HK1/P/MY/010905131056/MY/05SEP01/F/15AUG23/CHIONG/TZE LING</stl19:FullText>
+                </stl19:FactHistory>
+                <stl19:TicketingHistory>
+                  <stl19:OriginalTicketDetails>TAW/</stl19:OriginalTicketDetails>
+                  <stl19:TransactionIndicator>TAW</stl19:TransactionIndicator>
+                  <stl19:AgencyLocation />
+                  <stl19:HistoryAction>A7</stl19:HistoryAction>
+                </stl19:TicketingHistory>
+                <stl19:NameHistory>
+                  <stl19:HistoryAction>AN</stl19:HistoryAction>
+                  <stl19:NameSeqID>1</stl19:NameSeqID>
+                  <stl19:LastName>LAU</stl19:LastName>
+                  <stl19:FirstName>CHUI YIEN MS</stl19:FirstName>
+                </stl19:NameHistory>
+                <stl19:NameHistory>
+                  <stl19:HistoryAction>AN</stl19:HistoryAction>
+                  <stl19:NameSeqID>2</stl19:NameSeqID>
+                  <stl19:LastName>CHIONG</stl19:LastName>
+                  <stl19:FirstName>TZE LING MS</stl19:FirstName>
+                </stl19:NameHistory>
+                <stl19:AddressHistory type="O">
+                  <stl19:Text>HK MEIYA TRAVEL CO LTD. ,</stl19:Text>
+                  <stl19:HistoryAction>AW</stl19:HistoryAction>
+                  <stl19:AddressLineType>OTHER</stl19:AddressLineType>
+                </stl19:AddressHistory>
+                <stl19:PhoneHistory>
+                  <stl19:Location>O</stl19:Location>
+                  <stl19:TJRCityCode>HKG</stl19:TJRCityCode>
+                  <stl19:CityCode />
+                  <stl19:Extension />
+                  <stl19:Number>852 36210821</stl19:Number>
+                  <stl19:HistoryAction>A9</stl19:HistoryAction>
+                </stl19:PhoneHistory>
+                <stl19:PassengerDetailsHistory>
+                  <stl19:HistoryAction>ADT</stl19:HistoryAction>
+                  <stl19:NameID>1</stl19:NameID>
+                  <stl19:PassengerDetailType> </stl19:PassengerDetailType>
+                  <stl19:PassengerDetails>
+                    <stl19:PassengerType>
+                      <stl19:PassengerType>ADT</stl19:PassengerType>
+                    </stl19:PassengerType>
+                  </stl19:PassengerDetails>
+                </stl19:PassengerDetailsHistory>
+                <stl19:PassengerDetailsHistory>
+                  <stl19:HistoryAction>ADT</stl19:HistoryAction>
+                  <stl19:NameID>2</stl19:NameID>
+                  <stl19:PassengerDetailType> </stl19:PassengerDetailType>
+                  <stl19:PassengerDetails>
+                    <stl19:PassengerType>
+                      <stl19:PassengerType>ADT</stl19:PassengerType>
+                    </stl19:PassengerType>
+                  </stl19:PassengerDetails>
+                </stl19:PassengerDetailsHistory>
+                <stl19:CustomerInsightProfileHistory>
+                  <stl19:HistoryAction>API</stl19:HistoryAction>
+                  <stl19:ProfileTag>TAGENCY</stl19:ProfileTag>
+                  <stl19:ProfileID>438919152</stl19:ProfileID>
+                </stl19:CustomerInsightProfileHistory>
+              </stl19:HistoryTransaction>
+            </stl19:History>
+          </stl19:Reservation>
+        </stl19:GetReservationRS>
+      </Reservation>
+    </Reservations>
+  </ReservationsList>
+</Trip_SearchRS> </title>
+</head>
+<body>
+
+</body>
+</html>
