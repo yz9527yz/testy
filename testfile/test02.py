@@ -21,4 +21,5 @@ print("前进一层")
 sleep(2)
 driver.quit()
 print("关闭浏览器驱动")
-driver.page_source
+
+print("1231")
